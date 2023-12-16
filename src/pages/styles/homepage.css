@@ -58,7 +58,7 @@
 	padding-top: 30px;
 }
 
-.homepage-social-icon {
+/* .homepage-social-icon {
 	padding-right: 20px;
 	font-size: 25px;
 	transition: color 0.2s ease-in-out;
@@ -67,7 +67,7 @@
 
 .homepage-social-icon:hover {
 	color: var(--primary-color);
-}
+} */
 
 .homepage-after-title {
 	display: flex;

@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faTwitter,
-	faGithub,
-	faStackOverflow,
-	faInstagram,
-	faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+// 	faTwitter,
+// 	faGithub,
+// 	faStackOverflow,
+// 	faInstagram,
+// 	faLinkedin,
+// } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -114,8 +114,8 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="homepage-socials">
-							{/* <a
+						{/* <div className="homepage-socials">
+							<a
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
@@ -124,7 +124,7 @@ const Homepage = () => {
 									icon={faTwitter}
 									className="homepage-social-icon"
 								/>
-							</a> */}
+							</a>
 							<a
 								href={INFO.socials.linkedin}
 								target="_blank"
@@ -145,7 +145,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							{/* <a
+							<a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
@@ -164,7 +164,7 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a> */}
+							</a>
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -175,7 +175,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-						</div>
+						</div> */}
 
 						<div className="homepage-after-title">
 							{/* <div className="homepage-articles">

@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import "./styles/footer.css";
 
 const Footer = () => {
+	// TODO: make work experience responsive
+	// TODO: Make nav bar align properly to the center
 	return (
 		<React.Fragment>
 			<div className="footer">
@@ -15,12 +17,12 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/about">About</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						{/* <li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
-						</li>
+						</li> */}
 					</ul>
 				</div>
 			</div>

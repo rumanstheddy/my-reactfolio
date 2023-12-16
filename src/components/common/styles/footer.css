@@ -6,7 +6,7 @@
 	margin-top: 50px;
 	padding-bottom: 25px;
 	/* align-items: center; */
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 ul.footer-nav-link-list {
@@ -15,7 +15,7 @@ ul.footer-nav-link-list {
 
 .footer-links,
 .footer-credits {
-	flex-basis: 50%;
+	flex-basis: 40%;
 }
 
 /* .footer-links {
@@ -31,7 +31,7 @@ ul.footer-nav-link-list {
 
 .footer-nav-link-item {
 	font-weight: bold;
-	font-size: 80%;
+	font-size: 85%;
 }
 
 .footer-nav-link-list a {

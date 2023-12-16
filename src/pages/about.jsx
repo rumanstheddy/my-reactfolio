@@ -10,6 +10,9 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
 	useEffect(() => {
@@ -40,7 +43,7 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-							<div className="about-right-side">
+							<div className="about-left-side">
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
@@ -50,7 +53,7 @@ const About = () => {
 								</div>
 							</div>
 
-							<div className="about-left-side">
+							<div className="about-right-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
@@ -61,13 +64,45 @@ const About = () => {
 									</div>
 								</div>
 
-								<div className="about-socials">
+								{/* <div className="about-socials">
 									<Socials />
-								</div>
+								</div> */}
 							</div>
 						</div>
-						<div className="about-socials-mobile">
+						{/* <div className="about-socials-mobile">
 							<Socials />
+						</div> */}
+						<div className="about-socials">
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
+									className="about-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.github}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faGithub}
+									className="about-social-icon"
+								/>
+							</a>
+							<a
+								href={`mailto:${INFO.main.email}`}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faEnvelope}
+									className="about-social-icon"
+								/>
+							</a>
 						</div>
 					</div>
 					<div className="page-footer">

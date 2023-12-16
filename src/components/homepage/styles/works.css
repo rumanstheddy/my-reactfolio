@@ -1,8 +1,8 @@
 @import "../../../data/styles.css";
 
 .works-body {
-	margin-bottom: 10px;
-	padding-bottom: 40px;
+	margin-bottom: 30px;
+	/* padding-bottom: 20px; */
 }
 
 .work {
@@ -21,7 +21,7 @@
 
 .work-title {
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 600;
 	padding-left: 20px;
 	margin-top: -3px;
 	color: var(--secondary-color);
@@ -30,7 +30,7 @@
 .work-subtitle {
 	/* position: absolute; */
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 500;
 	color: var(--secondary-color);
 	/* padding-top: 22px; */
 	padding-left: 50px;
@@ -40,7 +40,7 @@
 	/* position: absolute; */
 	width: 350px;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 500;
 	/* padding-top: 20px; */
 	text-align: right;
 	color: var(--secondary-color);
@@ -51,4 +51,10 @@
 	width: 940px;
 	display: flex;
 	justify-content: space-between;
+}
+
+.work-summary {
+	padding-top: 5px;
+	/* padding-left: 20px; */
+	padding-right: 30px;
 }

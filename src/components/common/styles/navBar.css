@@ -17,7 +17,8 @@
 }
 
 .nav-background {
-	width: 380px;
+	/* width: 380px; */
+	width: 180px;
 	height: 40px;
 	padding-left: 0%;
 	padding-right: 0%;
