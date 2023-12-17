@@ -15,15 +15,21 @@ import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 // import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
+// import Works from "../components/homepage/works";
+// import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 // import myArticles from "../data/articles";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "./styles/homepage.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import HomeCard from "../components/homepage/homeCard";
+import {
+	faBriefcase,
+	faProjectDiagram,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -69,6 +75,12 @@ const Homepage = () => {
 		borderRadius: stayLogo ? "50%" : "none",
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
 	};
+
+	const workDescription =
+		"Check out my professional experience throughout the years.";
+
+	const projectsDescription =
+		"Check out the projects I have worked on throughout the years.";
 
 	return (
 		<React.Fragment>
@@ -178,7 +190,7 @@ const Homepage = () => {
 							</a>
 						</div> */}
 
-						<div className="homepage-after-title">
+						<div className="all-home-cards-container">
 							{/* <div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -199,35 +211,20 @@ const Homepage = () => {
 							{/* <div className="homepage-works">
 								<Works />
 							</div> */}
-
-							<React.Fragment>
-								<div className="project">
-									<Link to={"/"}>
-										<div className="project-container">
-											<div className="project-logo">
-												{/* <img src={logo} alt="logo" /> */}
-											</div>
-											<div className="project-title">
-												{/* {title} */}
-											</div>
-											<div className="project-description">
-												{/* {description} */}
-											</div>
-											<div className="project-link">
-												{/* <div className="project-link-icon">
-													<FontAwesomeIcon
-														icon={faLink}
-													/>
-												</div> */}
-
-												{/* <div className="project-link-text">
-													{linkText}
-												</div> */}
-											</div>
-										</div>
-									</Link>
-								</div>
-							</React.Fragment>
+							<HomeCard
+								link={"ef"}
+								icon={faBriefcase}
+								title={"Work Experience"}
+								description={workDescription}
+								linkText={"Take me there"}
+							/>
+							<HomeCard
+								link={"gh"}
+								icon={faProjectDiagram}
+								title={"Projects"}
+								description={projectsDescription}
+								linkText={"Take me there"}
+							/>
 						</div>
 
 						{/* <div className="homepage-projects">
