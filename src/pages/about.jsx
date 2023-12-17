@@ -13,6 +13,7 @@ import "./styles/about.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import TotalExperience from "./totalExperience";
 
 const About = () => {
 	useEffect(() => {
@@ -42,7 +43,7 @@ const About = () => {
 					</div>
 
 					<div className="about-container">
-						<div className="about-main">
+						{/* <div className="about-main">
 							<div className="about-left-side">
 								<div className="title about-title">
 									{INFO.about.title}
@@ -64,12 +65,12 @@ const About = () => {
 									</div>
 								</div>
 
-								{/* <div className="about-socials">
+								<div className="about-socials">
 									<Socials />
-								</div> */}
+								</div>
 							</div>
 						</div>
-						{/* <div className="about-socials-mobile">
+						<div className="about-socials-mobile">
 							<Socials />
 						</div> */}
 						<div className="about-socials">
@@ -104,9 +105,13 @@ const About = () => {
 								/>
 							</a>
 						</div>
-					</div>
-					<div className="page-footer">
-						<Footer />
+
+						<div className="aboutpage-works">
+							<TotalExperience />
+						</div>
+						<div className="page-footer">
+							<Footer />
+						</div>
 					</div>
 				</div>
 			</div>

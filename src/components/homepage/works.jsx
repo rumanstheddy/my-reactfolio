@@ -10,7 +10,7 @@ const Works = () => {
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Work Experience"
+				title="Professional Experience"
 				body={
 					<div className="works-body">
 						<div className="work">
@@ -25,21 +25,11 @@ const Works = () => {
 							<div className="work-subtitle">
 								Software Engineer
 							</div>
-							<div className="work-duration">2021 - Present</div>
+							<div className="work-duration">
+								July 2021 - Present
+							</div>
 						</div>
 
-						{/* <div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div> */}
 						<div className="work-summary">
 							<ul>
 								<li>

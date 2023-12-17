@@ -21,6 +21,7 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 // import myArticles from "../data/articles";
+import { Link } from "react-router-dom";
 
 import "./styles/homepage.css";
 
@@ -105,7 +106,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="me3.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -195,14 +196,43 @@ const Homepage = () => {
 								))}
 							</div> */}
 
-							<div className="homepage-works">
+							{/* <div className="homepage-works">
 								<Works />
-							</div>
+							</div> */}
+
+							<React.Fragment>
+								<div className="project">
+									<Link to={"/"}>
+										<div className="project-container">
+											<div className="project-logo">
+												{/* <img src={logo} alt="logo" /> */}
+											</div>
+											<div className="project-title">
+												{/* {title} */}
+											</div>
+											<div className="project-description">
+												{/* {description} */}
+											</div>
+											<div className="project-link">
+												{/* <div className="project-link-icon">
+													<FontAwesomeIcon
+														icon={faLink}
+													/>
+												</div> */}
+
+												{/* <div className="project-link-text">
+													{linkText}
+												</div> */}
+											</div>
+										</div>
+									</Link>
+								</div>
+							</React.Fragment>
 						</div>
 
-						<div className="homepage-projects">
+						{/* <div className="homepage-projects">
 							<AllProjects />
-						</div>
+						</div> */}
 
 						<div className="page-footer">
 							<Footer />
