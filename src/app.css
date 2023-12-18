@@ -74,7 +74,7 @@
 	position: absolute;
 	left: 0;
 	right: 0;
-	border-top: 2px solid var(--tertiary-color);
+	/* border-top: 2px solid var(--tertiary-color); */
 }
 
 @media (max-width: 1270px) {

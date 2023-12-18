@@ -62,7 +62,7 @@ const TotalExperience = () => {
 			<br />
 			<Card
 				icon={faBriefcase}
-				title="Total Professional Experience"
+				title="Professional Experience"
 				body={
 					<div className="works-body">
 						<div className="work">

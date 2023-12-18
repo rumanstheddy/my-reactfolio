@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto:wght@500&display=swap");
 @import "./data/styles.css";
 
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Roboto+Mono");
+
 body {
 	margin: 0;
-	font-family: var(--primary-font);
+	font-family: var(--tertiary-font);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

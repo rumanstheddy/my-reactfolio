@@ -2,14 +2,14 @@ const INFO = {
 	main: {
 		title: "Sumanth Chinnaobireddy",
 		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		email: "sumanthcob@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/rumanstheddy",
+		linkedin: "https://www.linkedin.com/in/sumanthcob/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
@@ -22,9 +22,14 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "A Glimpse into My Professional Journey.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Dive into my journey – from academic milestones to professional endeavors. Discover my story in a concise resume format.",
+		download: {
+			link: "https://dl.dropboxusercontent.com/scl/fi/bzxd3wxh8kbd93cbx63ke/Resume2023.pdf?rlkey=fr53io59s1y779q2iavzu86y8&dl=0",
+			title: "My Resume",
+			// description: "",
+		},
 	},
 
 	articles: {
@@ -33,52 +38,57 @@ const INFO = {
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
 
-	projects: [
-		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+	projects: {
+		title: "Coding Expeditions: Diving into My Projects.",
+		description:
+			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		list: [
+			{
+				title: "Textful",
+				description:
+					"Textful is a web-based application, made using React and Node.js that enables its users to exchange text messages directly.",
+				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				linkText: "View Project",
+				link: "https://github.com/rumanstheddy/project-textful",
+			},
 
-		// {
-		// 	title: "Project 2",
-		// 	description:
-		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com",
-		// },
+			// {
+			// 	title: "Project 2",
+			// 	description:
+			// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			// 	linkText: "View Project",
+			// 	link: "https://github.com",
+			// },
 
-		// {
-		// 	title: "Project 3",
-		// 	description:
-		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com",
-		// },
+			// {
+			// 	title: "Project 3",
+			// 	description:
+			// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			// 	linkText: "View Project",
+			// 	link: "https://github.com",
+			// },
 
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+			{
+				title: "AngularChrono",
+				description:
+					"Exploring Angular basics, I built a hands-on mobile-responsive Stop Watch web app.",
+				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				linkText: "View Project",
+				link: "https://github.com/rumanstheddy/Ang-Stop-Watch",
+			},
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-	],
+			{
+				title: "Wcast",
+				description:
+					"A free to use weather forecast app being made using React.",
+				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				linkText: "View Project",
+				link: "https://github.com/rumanstheddy/w-cast",
+			},
+		],
+	},
 };
 
 export default INFO;

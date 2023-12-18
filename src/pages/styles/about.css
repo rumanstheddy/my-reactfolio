@@ -1,3 +1,7 @@
+.aboutpage-works {
+	font-family: var(--tertiary-font);
+}
+
 .about-logo-container {
 	display: flex;
 	justify-content: left;
@@ -25,8 +29,9 @@
 	display: flex;
 	padding-bottom: 30px;
 }
-.about-left-side {
-	flex-basis: 900px;
+.about-header {
+	/* flex-basis: 900px; */
+	width: 100%;
 }
 
 .about-title {
@@ -62,8 +67,10 @@
 
 .about-socials {
 	padding-top: 50px;
-	padding-bottom: 50px;
-	text-align: center;
+	padding-bottom: 20px;
+	/* text-align: center; */
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .about-socials-mobile {
@@ -71,15 +78,42 @@
 }
 
 .about-social-icon {
-	padding-right: 30px;
-	font-size: 40px;
+	/* padding-right: 30px; */
+	font-size: 35px;
 	transition: color 0.2s ease-in-out;
 	color: var(--secondary-color);
+	padding-bottom: 0px;
 }
 
 .about-social-icon:hover {
 	color: var(--primary-color);
 }
+
+.about-social-icon-container {
+	margin-bottom: 20px;
+}
+
+/* .about-download-icon-container {
+	margin-bottom: 20px;
+} */
+
+.about-download-icon {
+	/* padding-right: 30px; */
+	font-size: 35px;
+	transition: color 0.2s ease-in-out;
+	color: var(--secondary-color);
+	padding-bottom: 0px;
+	padding-top: 35px;
+	padding-right: 15px;
+}
+
+.about-download-icon:hover {
+	color: var(--primary-color);
+}
+
+/* .about-social-icon-container:hover {
+	color: var(--primary-color);
+} */
 
 @media (max-width: 1024px) {
 	.about-logo {
@@ -98,7 +132,7 @@
 		order: 1;
 	}
 
-	.about-left-side {
+	.about-header {
 		flex-basis: 100%;
 		order: 2;
 	}
@@ -125,4 +159,91 @@
 	.about-image-container {
 		width: 80%;
 	}
+}
+
+.download-card {
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	/* opacity: 0.8; */
+	padding: 20px;
+}
+
+.download-card a {
+	text-decoration: none;
+}
+
+.download-card-icon {
+	font-size: 25px;
+	color: #27272a;
+	/* padding-right: 10px; */
+	text-align: center;
+	/* padding-top: 15px; */
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.download-card-title {
+	font-family: var(--primary-font);
+	color: var(--primary-color);
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 1em;
+	font-weight: 700;
+}
+
+.download-card-container {
+	/* width: 285px; */
+	box-sizing: border-box;
+	/* padding: 20px; */
+}
+
+.download-card:hover {
+	background: #f7f7f7;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.download-card:hover .download-card-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.download-title-icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 0.5em;
+	letter-spacing: -1px;
+	align-self: flex-end;
+}
+
+@media (max-width: 600px) {
+	.download-card {
+		height: 300px;
+	}
+}
+
+@media (max-width: 600px) {
+	.download-card-container {
+		width: calc(100% / 2);
+	}
+}
+
+.subtitle-dLink-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.download-card-link {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-top: 8px;
+}
+
+.download-card-link-text {
+	/* padding-left: 20px; */
+	font-weight: 700;
 }

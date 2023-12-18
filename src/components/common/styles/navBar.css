@@ -14,6 +14,7 @@
 	position: fixed;
 	top: 3vh;
 	z-index: 999;
+	font-family: var(--primary-font);
 }
 
 .nav-background {
@@ -31,7 +32,7 @@
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	align-items: center;
+	/* align-items: center; */
 	margin-left: -16px;
 	margin-right: 20px;
 	margin-top: 11px;

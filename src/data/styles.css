@@ -8,7 +8,8 @@
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
-	--primary-font: "Heebo", sans-serif;
-	--secondary-font: "Roboto", sans-serif;
+	--primary-font: "Roboto Mono", sans-serif;
+	--secondary-font: "Crimson Text", sans-serif;
+	--tertiary-font: "Heebo", sans-serif;
 	/* --------------------- */
 }

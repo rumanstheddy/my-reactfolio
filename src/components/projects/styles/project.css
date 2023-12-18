@@ -12,7 +12,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: #f7f7f7;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -24,6 +24,7 @@
 
 .project-container {
 	padding: 30px;
+	font-family: var(--tertiary-font);
 }
 
 .project-logo {
@@ -35,7 +36,7 @@
 }
 
 .project-title {
-	font-family: var(--secondary-font);
+	font-family: var(--primary-font);
 	color: var(--primary-color);
 	font-size: 16px;
 	padding-top: 15px;

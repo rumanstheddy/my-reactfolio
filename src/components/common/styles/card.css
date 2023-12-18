@@ -18,7 +18,7 @@
 
 .card-icon {
 	font-size: 25px;
-	color: var(--tertiary-color);
+	color: var(--secondary-color);
 }
 
 .card-title {
@@ -26,6 +26,7 @@
 	font-size: 20px;
 	padding-left: 20px;
 	font-weight: 650;
+	font-family: var(--secondary-font);
 }
 
 .card-body {

@@ -12,7 +12,7 @@ import { Helmet } from "react-helmet";
 // } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
-import Footer from "../components/common/footer";
+// import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 // import Article from "../components/homepage/article";
 // import Works from "../components/homepage/works";
@@ -28,8 +28,11 @@ import "./styles/homepage.css";
 import HomeCard from "../components/homepage/homeCard";
 import {
 	faBriefcase,
+	faEnvelope,
 	faProjectDiagram,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -76,8 +79,7 @@ const Homepage = () => {
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
 	};
 
-	const workDescription =
-		"Check out my professional experience throughout the years.";
+	const workDescription = "Explore my professional journey over the years.";
 
 	const projectsDescription =
 		"Check out the projects I have worked on throughout the years.";
@@ -112,23 +114,8 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 								</div>
-							</div>
-
-							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="me3.jpg"
-											alt="about"
-											className="homepage-image"
-										/>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						{/* <div className="homepage-socials">
-							<a
+								<div className="homepage-socials">
+									{/* <a
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
@@ -137,28 +124,28 @@ const Homepage = () => {
 									icon={faTwitter}
 									className="homepage-social-icon"
 								/>
-							</a>
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
+							</a> */}
+									<a
+										href={INFO.socials.linkedin}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faLinkedin}
+											className="homepage-social-icon"
+										/>
+									</a>
+									<a
+										href={INFO.socials.github}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faGithub}
+											className="homepage-social-icon"
+										/>
+									</a>
+									{/* <a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
@@ -177,18 +164,32 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faEnvelope}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div> */}
+							</a> */}
+									<a
+										href={`mailto:${INFO.main.email}`}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faEnvelope}
+											className="homepage-social-icon"
+										/>
+									</a>
+								</div>
+							</div>
+
+							<div className="homepage-first-area-right-side">
+								<div className="homepage-image-container">
+									<div className="homepage-image-wrapper">
+										<img
+											src="me3.jpg"
+											alt="about"
+											className="homepage-image"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<div className="all-home-cards-container">
 							{/* <div className="homepage-articles">
@@ -231,9 +232,9 @@ const Homepage = () => {
 							<AllProjects />
 						</div> */}
 
-						<div className="page-footer">
+						{/* <div className="page-footer">
 							<Footer />
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

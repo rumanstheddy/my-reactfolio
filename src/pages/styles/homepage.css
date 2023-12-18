@@ -52,17 +52,15 @@
 }
 
 .homepage-socials {
-	/* display: flex; */
+	display: flex;
 	justify-content: left;
 	align-items: center;
-	padding-top: 70px;
-	text-align: center;
-	/* padding-bottom: 30px; */
+	padding-top: 30px;
 }
 
 .homepage-social-icon {
-	padding-right: 30px;
-	font-size: 40px;
+	padding-right: 20px;
+	font-size: 25px;
 	transition: color 0.2s ease-in-out;
 	color: var(--secondary-color);
 }
@@ -102,11 +100,14 @@
 .all-home-cards-container {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: stretch;
-	padding-top: 30px;
+	align-items: center;
+	margin-top: 120px;
 	/* padding-bottom: 30px; */
 	margin-left: -35px;
 	margin-right: -35px;
+	justify-content: space-around;
+	margin-bottom: 80px;
+	font-family: var(--tertiary-font);
 }
 
 @media (max-width: 1024px) {
