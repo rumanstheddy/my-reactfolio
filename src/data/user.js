@@ -22,12 +22,12 @@ const INFO = {
 	},
 
 	about: {
-		title: "A Glimpse into My Professional Journey.",
+		title: "Professional Journey",
 		description:
-			"Dive into my journey – from academic milestones to professional endeavors. Discover my story in a concise resume format.",
+			"Dive into my journey – from academic milestones to professional endeavors. Discover my story in a résumé format.",
 		download: {
 			link: "https://dl.dropboxusercontent.com/scl/fi/bzxd3wxh8kbd93cbx63ke/Resume2023.pdf?rlkey=fr53io59s1y779q2iavzu86y8&dl=0",
-			title: "My Resume",
+			title: "My Résumé",
 			// description: "",
 		},
 	},
@@ -39,7 +39,7 @@ const INFO = {
 	},
 
 	projects: {
-		title: "Coding Expeditions: Diving into My Projects.",
+		title: "My Projects",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 		list: [

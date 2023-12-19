@@ -9,7 +9,7 @@ const HomeCard = ({ link, icon, title, description, linkText }) => {
 	return (
 		<React.Fragment>
 			<div className="home-card">
-				<Link to={title}>
+				<Link to={link}>
 					<div className="home-card-container">
 						<div className="home-title-icon-container">
 							<div className="home-card-title">{title}</div>

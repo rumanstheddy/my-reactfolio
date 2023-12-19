@@ -27,17 +27,35 @@
 	margin-top: 50px;
 }
 
-@media (max-width: 600px) {
-	.projects-container {
-		padding-top: 60px;
+@media (320px <= width <= 414px) {
+	.projects-logo {
+		display: none;
 	}
 
-	.projects-project {
-		width: calc(100% / 2);
+	div.projects-title {
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
 	}
-}
 
-div.projects-title,
-div.projects-subtitle {
-	width: 100%;
+	div.projects-subtitle {
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	div.all-projects-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	div.all-projects-project {
+		width: 100%;
+		text-align: center;
+	}
+
+	div.projects-list {
+		margin-top: 30px;
+		margin-bottom: 0px;
+	}
 }

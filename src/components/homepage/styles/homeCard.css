@@ -81,7 +81,7 @@
 	.home-card {
 		height: 250px;
 		width: 300px;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 
 	div.home-card-container {
@@ -94,8 +94,8 @@
 	}
 }
 
-@media (414px<= width <= 600px) {
+@media (414px < width <= 600px) {
 }
 
-@media (600px<= width) {
+@media (600px < width) {
 }

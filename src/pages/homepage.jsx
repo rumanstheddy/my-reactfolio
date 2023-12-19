@@ -217,14 +217,12 @@ const Homepage = () => {
 								icon={faBriefcase}
 								title={"Work Experience"}
 								description={workDescription}
-								linkText={"Take me there"}
 							/>
 							<HomeCard
 								link={"gh"}
 								icon={faProjectDiagram}
 								title={"Projects"}
 								description={projectsDescription}
-								linkText={"Take me there"}
 							/>
 						</div>
 

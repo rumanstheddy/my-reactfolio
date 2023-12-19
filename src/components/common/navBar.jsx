@@ -2,6 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
+import {
+	faBriefcase,
+	faHome,
+	faProjectDiagram,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = (props) => {
 	const { active } = props;
@@ -13,13 +19,22 @@ const NavBar = (props) => {
 					<div className="nav-background">
 						<ul className="nav-list">
 							<li
+								// TODO: Make the website responsive for tablet screens
 								className={
 									active === "home"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-								<Link to="/">Home</Link>
+								<Link to="/">
+									<div className="nav-item-title">Home</div>
+									<div className="nav-item-icon">
+										<FontAwesomeIcon
+											icon={faHome}
+											className="homepage-social-icon"
+										/>
+									</div>
+								</Link>
 							</li>
 							<li
 								className={
@@ -28,7 +43,15 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/about">About</Link>
+								<Link to="/about">
+									<div className="nav-item-title">About</div>
+									<div className="nav-item-icon">
+										<FontAwesomeIcon
+											icon={faBriefcase}
+											className="homepage-social-icon"
+										/>
+									</div>
+								</Link>
 							</li>
 							<li
 								className={
@@ -37,7 +60,17 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/projects">Projects</Link>
+								<Link to="/projects">
+									<div className="nav-item-title">
+										Projects
+									</div>
+									<div className="nav-item-icon">
+										<FontAwesomeIcon
+											icon={faProjectDiagram}
+											className="homepage-social-icon"
+										/>
+									</div>
+								</Link>
 							</li>
 							{/* <li
 								className={

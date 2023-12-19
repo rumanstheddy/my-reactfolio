@@ -16,7 +16,8 @@ import "./styles/about.css";
 import TotalExperience from "./totalExperience";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faLink } from "@fortawesome/free-solid-svg-icons";
+import HomeCard from "../components/homepage/homeCard";
 
 const About = () => {
 	useEffect(() => {
@@ -57,38 +58,6 @@ const About = () => {
 										{INFO.about.description}
 									</div>
 									<React.Fragment>
-										{/* <div className="download-card">
-											<Link to={INFO.about.download.link}>
-												<div className="download-card-container">
-													<div className="download-card-icon">
-														<FontAwesomeIcon
-															icon={faDownload}
-														/>
-													</div>
-													<div className="download-title-icon-container">
-														
-														<div className="download-card-title">
-															{
-																INFO.about
-																	.download
-																	.title
-															}
-														</div>
-													</div>
-												</div>
-												<div className="download-card-link">
-													<div className="home-card-link-icon">
-														<FontAwesomeIcon
-															icon={faLink}
-														/>
-													</div>
-
-													<div className="download-card-link-text">
-														{"My Resume"}
-													</div>
-												</div>
-											</Link>
-										</div> */}
 										<a
 											href={INFO.about.download.link}
 											target="_blank"
@@ -101,6 +70,14 @@ const About = () => {
 												/>
 											</div>
 										</a>
+
+										<div id="aboutCard">
+											<HomeCard
+												link={INFO.about.download.link}
+												icon={faDownload}
+												title={INFO.about.download.title}
+											/>
+										</div>
 									</React.Fragment>
 								</div>
 							</div>

@@ -66,8 +66,30 @@
 	font-weight: 700;
 }
 
-@media (max-width: 600px) {
+@media (320px <= width <= 414px) {
 	.project {
-		height: 300px;
+		height: 250px;
+	}
+
+	div.project-link {
+		display: flex;
+		justify-content: center;
+		padding-top: 25px;
+	}
+
+	.project-link-icon {
+		padding-left: 0px;
+		padding-right: 5px;
+	}
+
+	div.project-link-text {
+		padding-left: 5px;
+		font-family: var(--primary-font);
+		letter-spacing: normal;
+	}
+
+	div.project-logo {
+		display: flex;
+		justify-content: center;
 	}
 }

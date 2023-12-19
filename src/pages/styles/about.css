@@ -39,7 +39,7 @@
 }
 
 .about-subtitle {
-	width: 80% !important;
+	width: 80%;
 }
 
 .about-right-side {
@@ -115,52 +115,6 @@
 	color: var(--primary-color);
 } */
 
-@media (max-width: 1024px) {
-	.about-logo {
-		z-index: 100;
-	}
-
-	.about-main {
-		flex-direction: column;
-	}
-
-	.about-subtitle {
-		padding-top: 20px !important;
-	}
-	.about-right-side {
-		flex-basis: 100%;
-		order: 1;
-	}
-
-	.about-header {
-		flex-basis: 100%;
-		order: 2;
-	}
-
-	.about-image-container {
-		padding-bottom: 40px;
-	}
-
-	.about-socials {
-		display: none;
-	}
-
-	.about-socials-mobile {
-		padding-top: 30px;
-		display: flex;
-	}
-}
-
-@media (max-width: 600px) {
-	.about-container {
-		padding-top: 60px;
-	}
-
-	.about-image-container {
-		width: 80%;
-	}
-}
-
 .download-card {
 	mix-blend-mode: normal;
 	border-radius: 20px;
@@ -183,7 +137,7 @@
 }
 
 .download-card-title {
-	font-family: var(--primary-font);
+	font-family: var(--tertiary-font);
 	color: var(--primary-color);
 	font-size: 18px;
 	padding-top: 15px;
@@ -217,18 +171,6 @@
 	align-self: flex-end;
 }
 
-@media (max-width: 600px) {
-	.download-card {
-		height: 300px;
-	}
-}
-
-@media (max-width: 600px) {
-	.download-card-container {
-		width: calc(100% / 2);
-	}
-}
-
 .subtitle-dLink-container {
 	display: flex;
 	flex-direction: row;
@@ -246,4 +188,163 @@
 .download-card-link-text {
 	/* padding-left: 20px; */
 	font-weight: 700;
+}
+
+div#aboutCard {
+	display: none;
+}
+
+@media (320px <= width <= 414px) {
+	.about-logo {
+		display: none;
+	}
+
+	div.about-title {
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	div.subtitle-dLink-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	div.about-subtitle {
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	div.about-download-icon-container {
+		display: none;
+	}
+
+	div#aboutCard {
+		display: flex;
+		justify-content: center;
+
+		div.home-card {
+			height: 70px;
+			width: 300px;
+			margin-bottom: 20px;
+			margin-top: 40px;
+		}
+
+		div.home-card-container {
+			height: match-parent;
+			width: match-parent;
+			padding: 0px;
+		}
+
+		div.home-title-icon-container {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			padding-bottom: 0px;
+			padding-top: 7px;
+		}
+
+		div.home-card-description {
+			padding: 0px;
+		}
+
+		div.home-card-title {
+			letter-spacing: 0.05em;
+			font-size: 18px;
+			font-family: var(--tertiary-font);
+		}
+	}
+
+	div.work {
+		display: flex;
+		align-items: end;
+		padding-bottom: 20px;
+		width: 100%;
+	}
+
+	div.works {
+		margin-bottom: 10px;
+	}
+
+	div.work-details-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	div.work-subtitle {
+		padding-left: 0px;
+		word-wrap: break-word;
+		padding-bottom: 10px;
+	}
+
+	div.work-duration {
+		width: 100%;
+		text-align: left;
+	}
+
+	svg.about-social-icon {
+		font-size: 2.8em;
+	}
+}
+
+@media (414px < width <= 600px) {
+}
+
+@media (600px < width) {
+}
+
+@media (max-width: 600px) {
+	.about-container {
+		padding-top: 60px;
+	}
+
+	.about-image-container {
+		width: 80%;
+	}
+}
+
+@media (max-width: 600px) {
+	.download-card {
+		height: 300px;
+	}
+}
+
+@media (max-width: 600px) {
+	.download-card-container {
+		width: calc(100% / 2);
+	}
+}
+
+@media (max-width: 1024px) {
+	.about-logo {
+		z-index: 100;
+	}
+
+	.about-main {
+		flex-direction: column;
+	}
+
+	.about-subtitle {
+		padding-top: 20px;
+	}
+	.about-right-side {
+		flex-basis: 100%;
+		order: 1;
+	}
+
+	.about-header {
+		flex-basis: 100%;
+		order: 2;
+	}
+
+	.about-image-container {
+		padding-bottom: 40px;
+	}
+
+	.about-socials-mobile {
+		padding-top: 30px;
+		display: flex;
+	}
 }

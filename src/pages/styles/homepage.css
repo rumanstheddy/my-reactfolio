@@ -130,7 +130,7 @@
 	}
 
 	.homepage-image-container {
-		padding-top: 90px;
+		margin-top: 90px;
 		/* padding-bottom: 50px; */
 		margin-left: 10px;
 		order: 1;
@@ -161,7 +161,7 @@
 	}
 
 	.homepage-social-icon {
-		font-size: 3em;
+		font-size: 2.8em;
 		padding-right: 0px;
 		padding-left: 10px;
 	}
@@ -181,10 +181,10 @@
 	}
 }
 
-@media (414px<= width <= 600px) {
+@media (414px < width <= 600px) {
 }
 
-@media (600px<= width) {
+@media (600px < width) {
 }
 
 @media (max-width: 1024px) {
