@@ -9,9 +9,6 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
-	// TODO: make work experience responsive
-	// TODO: Make nav bar align properly to the center
-	// TODO: Add a download link to resume in about page
 	return (
 		<React.Fragment>
 			{/* <div className="footer">

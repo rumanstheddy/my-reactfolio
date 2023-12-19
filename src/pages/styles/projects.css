@@ -24,6 +24,7 @@
 
 .projects-list {
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 @media (max-width: 600px) {
