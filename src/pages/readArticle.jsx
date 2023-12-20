@@ -49,7 +49,9 @@ const ReadArticle = () => {
 					<div className="read-article-container">
 						<div className="read-article-back">
 							<img
-								src="../back-button.png"
+								src={
+									process.env.PUBLIC_URL + "/back-button.png"
+								}
 								alt="back"
 								className="read-article-back-button"
 								onClick={() => navigate(-1)}

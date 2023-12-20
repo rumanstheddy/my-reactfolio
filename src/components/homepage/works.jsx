@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./usbank.jpg"
+								src={process.env.PUBLIC_URL + "/usbank.jpg"}
 								alt="usbank"
 								className="work-image"
 							/>

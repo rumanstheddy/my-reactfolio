@@ -18,7 +18,7 @@ const TotalExperience = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./NEU.png"
+								src={process.env.PUBLIC_URL + "/NEU.png"}
 								alt="Northeastern University logo"
 								className="work-image"
 							/>
@@ -38,7 +38,7 @@ const TotalExperience = () => {
 						<div className="works-body">
 							<div className="work">
 								<img
-									src="./bmu.jpg"
+									src={process.env.PUBLIC_URL + "/bmu.jpg"}
 									alt="BML Munjal University logo"
 									className="work-image"
 								/>
@@ -67,7 +67,7 @@ const TotalExperience = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./usbank.jpg"
+								src={process.env.PUBLIC_URL + "/usbank.jpg"}
 								alt="U.S. Bank logo"
 								className="work-image"
 							/>
@@ -170,7 +170,7 @@ const TotalExperience = () => {
 						<div className="works-body">
 							<div className="work">
 								<img
-									src="./NEU.png"
+									src={process.env.PUBLIC_URL + "/NEU.png"}
 									alt="Northeastern University logo"
 									className="work-image"
 								/>
@@ -212,7 +212,7 @@ const TotalExperience = () => {
 						<div className="works-body">
 							<div className="work">
 								<img
-									src="./NEU.png"
+									src={process.env.PUBLIC_URL + "/NEU.png"}
 									alt="Northeastern University logo"
 									className="work-image"
 								/>
@@ -255,7 +255,7 @@ const TotalExperience = () => {
 						<div className="works-body">
 							<div className="work">
 								<img
-									src="./cyient.jpg"
+									src={process.env.PUBLIC_URL + "/cyient.jpg"}
 									alt="Cyient logo"
 									className="work-image"
 								/>
