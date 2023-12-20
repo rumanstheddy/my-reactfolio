@@ -216,13 +216,13 @@ const Homepage = () => {
 								<Works />
 							</div> */}
 							<HomeCard
-								link={"ef"}
+								link={"/about"}
 								icon={faBriefcase}
 								title={"Work Experience"}
 								description={workDescription}
 							/>
 							<HomeCard
-								link={"gh"}
+								link={"/projects"}
 								icon={faProjectDiagram}
 								title={"Projects"}
 								description={projectsDescription}
