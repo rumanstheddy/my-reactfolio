@@ -19,7 +19,7 @@
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
-	padding-top: 120px;
+	margin-top: 120px;
 }
 
 .projects-list {
@@ -27,7 +27,7 @@
 	margin-top: 50px;
 }
 
-@media (320px <= width <= 414px) {
+@media (320px <= width <= 768px) {
 	.projects-logo {
 		display: none;
 	}
@@ -35,7 +35,7 @@
 	div.projects-title {
 		width: 100%;
 		text-align: center;
-		margin-top: 20px;
+		padding-top: 20px;
 	}
 
 	div.projects-subtitle {
@@ -57,5 +57,26 @@
 	div.projects-list {
 		margin-top: 30px;
 		margin-bottom: 0px;
+	}
+
+	div.projects-container {
+		padding-top: 0px;
+		margin-top: 90px;
+	}
+}
+
+@media (414px < width <= 768px) {
+	div.projects-title {
+		font-size: 55px;
+	}
+
+	div.projects-subtitle {
+		font-size: 19px;
+	}
+}
+
+@media (768px <= width <= 1600px) {
+	.projects-logo {
+		display: none;
 	}
 }

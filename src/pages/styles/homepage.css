@@ -110,7 +110,7 @@
 	font-family: var(--tertiary-font);
 }
 
-@media (320px <= width <= 414px) {
+@media (320px <= width <= 768px) {
 	.homepage-first-area {
 		flex-direction: column;
 	}
@@ -140,7 +140,7 @@
 		width: 100%;
 		order: 2;
 		text-align: center;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 	div.homepage-subtitle {
@@ -160,7 +160,7 @@
 		order: 4;
 	}
 
-	.homepage-social-icon {
+	svg.homepage-social-icon {
 		font-size: 2.8em;
 		padding-right: 0px;
 		padding-left: 10px;
@@ -181,10 +181,44 @@
 	}
 }
 
-@media (414px < width <= 600px) {
+@media (414px < width <= 768px) {
+	div.homepage-title {
+		font-size: 55px;
+	}
+
+	div.homepage-subtitle {
+		font-size: 19px;
+	}
+
+	svg.homepage-social-icon {
+		font-size: 3em;
+	}
+
+	div.all-home-cards-container {
+		margin-top: 90px;
+	}
 }
 
-@media (600px < width) {
+@media (600px < width <= 768px) {
+	div.homepage-title {
+		margin-top: 40px;
+	}
+
+	div.homepage-image-container {
+		margin-top: 120px;
+	}
+}
+
+@media (768px < width <= 800px) {
+	div.homepage-first-area-left-side {
+		margin-right: 50px;
+	}
+}
+
+@media (800px < width <= 1024px) {
+	div.homepage-first-area-left-side {
+		margin-right: 30px;
+	}
 }
 
 @media (max-width: 1024px) {

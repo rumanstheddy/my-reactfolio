@@ -31,5 +31,18 @@
 
 .card-body {
 	padding-top: 30px;
-	font-size: 15px;
+}
+
+@media (414px < width <= 768px) {
+	.card-title {
+		font-size: 25px;
+	}
+
+	.card-icon {
+		font-size: 30px;
+	}
+
+	.card-body {
+		padding-top: 35px;
+	}
 }

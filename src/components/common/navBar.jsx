@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = (props) => {
 	const { active } = props;
+	console.log("active: ", active);
 
 	return (
 		<React.Fragment>
@@ -28,12 +29,14 @@ const NavBar = (props) => {
 							>
 								<Link to="/">
 									<div className="nav-item-title">Home</div>
-									<div className="nav-item-icon">
-										<FontAwesomeIcon
-											icon={faHome}
-											className="homepage-social-icon"
-										/>
-									</div>
+									<FontAwesomeIcon
+										icon={faHome}
+										className={
+											active === "about"
+												? "nav-item-icon active"
+												: "nav-item-icon"
+										}
+									/>
 								</Link>
 							</li>
 							<li
@@ -45,12 +48,14 @@ const NavBar = (props) => {
 							>
 								<Link to="/about">
 									<div className="nav-item-title">About</div>
-									<div className="nav-item-icon">
-										<FontAwesomeIcon
-											icon={faBriefcase}
-											className="homepage-social-icon"
-										/>
-									</div>
+									<FontAwesomeIcon
+										icon={faBriefcase}
+										className={
+											active === "about"
+												? "nav-item-icon active"
+												: "nav-item-icon"
+										}
+									/>
 								</Link>
 							</li>
 							<li
@@ -64,12 +69,14 @@ const NavBar = (props) => {
 									<div className="nav-item-title">
 										Projects
 									</div>
-									<div className="nav-item-icon">
-										<FontAwesomeIcon
-											icon={faProjectDiagram}
-											className="homepage-social-icon"
-										/>
-									</div>
+									<FontAwesomeIcon
+										icon={faProjectDiagram}
+										className={
+											active === "about"
+												? "nav-item-icon active"
+												: "nav-item-icon"
+										}
+									/>
 								</Link>
 							</li>
 							{/* <li

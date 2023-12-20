@@ -22,12 +22,12 @@ const INFO = {
 	},
 
 	about: {
-		title: "Professional Journey",
+		title: "Career Path",
 		description:
-			"Dive into my journey – from academic milestones to professional endeavors. Discover my story in a résumé format.",
+			"Dive into my journey – from academic milestones to professional endeavors. Discover my story in a resumé format.",
 		download: {
 			link: "https://dl.dropboxusercontent.com/scl/fi/bzxd3wxh8kbd93cbx63ke/Resume2023.pdf?rlkey=fr53io59s1y779q2iavzu86y8&dl=0",
-			title: "My Résumé",
+			title: "My Resumé",
 			// description: "",
 		},
 	},

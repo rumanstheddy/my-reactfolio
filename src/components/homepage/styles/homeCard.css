@@ -77,7 +77,7 @@
 	padding-bottom: 1.5em;
 }
 
-@media (320px <= width <= 414px) {
+@media (320px <= width <= 600px) {
 	.home-card {
 		height: 250px;
 		width: 300px;
@@ -95,6 +95,23 @@
 }
 
 @media (414px < width <= 600px) {
+	.home-card {
+		height: 250px;
+		width: calc(100vw - 100px);
+		margin-bottom: 30px;
+	}
+
+	div.home-card-container {
+		width: calc(100vw - 100px);
+	}
+
+	.home-card-title {
+		font-size: 20px;
+	}
+
+	.home-card-description {
+		font-size: 20px;
+	}
 }
 
 @media (600px < width) {

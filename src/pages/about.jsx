@@ -71,7 +71,7 @@ const About = () => {
 											</div>
 										</a>
 
-										<div id="aboutCard">
+										<div id="downloadCard">
 											<HomeCard
 												link={INFO.about.download.link}
 												icon={faDownload}

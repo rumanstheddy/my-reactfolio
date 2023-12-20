@@ -22,7 +22,7 @@
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
-	padding-top: 120px;
+	margin-top: 120px;
 }
 
 .about-main {
@@ -190,19 +190,23 @@
 	font-weight: 700;
 }
 
-div#aboutCard {
+div#downloadCard {
 	display: none;
 }
 
-@media (320px <= width <= 414px) {
+@media (320px <= width <= 768px) {
 	.about-logo {
 		display: none;
+	}
+
+	.about-container {
+		margin-top: 90px;
 	}
 
 	div.about-title {
 		width: 100%;
 		text-align: center;
-		margin-top: 20px;
+		padding-top: 20px;
 	}
 
 	div.subtitle-dLink-container {
@@ -220,7 +224,7 @@ div#aboutCard {
 		display: none;
 	}
 
-	div#aboutCard {
+	div#downloadCard {
 		display: flex;
 		justify-content: center;
 
@@ -232,8 +236,8 @@ div#aboutCard {
 		}
 
 		div.home-card-container {
-			height: match-parent;
-			width: match-parent;
+			height: 100%;
+			width: 100%;
 			padding: 0px;
 		}
 
@@ -252,36 +256,10 @@ div#aboutCard {
 		div.home-card-title {
 			letter-spacing: 0.05em;
 			font-size: 18px;
-			font-family: var(--tertiary-font);
+			font-family: system-ui, -apple-system, BlinkMacSystemFont,
+				"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+				"Helvetica Neue", sans-serif;
 		}
-	}
-
-	div.work {
-		display: flex;
-		align-items: end;
-		padding-bottom: 20px;
-		width: 100%;
-	}
-
-	div.works {
-		margin-bottom: 10px;
-	}
-
-	div.work-details-container {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-	}
-
-	div.work-subtitle {
-		padding-left: 0px;
-		word-wrap: break-word;
-		padding-bottom: 10px;
-	}
-
-	div.work-duration {
-		width: 100%;
-		text-align: left;
 	}
 
 	svg.about-social-icon {
@@ -289,62 +267,32 @@ div#aboutCard {
 	}
 }
 
-@media (414px < width <= 600px) {
-}
-
-@media (600px < width) {
-}
-
-@media (max-width: 600px) {
-	.about-container {
-		padding-top: 60px;
+@media (414px < width <= 768px) {
+	div.about-title {
+		font-size: 55px;
 	}
 
-	.about-image-container {
+	div.about-subtitle {
+		font-size: 20px;
+	}
+
+	div#downloadCard {
+		div.home-card-title {
+			font-size: 20px;
+		}
+	}
+}
+@media (768px < width <= 800px) {
+	div.about-subtitle {
 		width: 80%;
 	}
 }
 
-@media (max-width: 600px) {
-	.download-card {
-		height: 300px;
-	}
-}
-
-@media (max-width: 600px) {
-	.download-card-container {
-		width: calc(100% / 2);
-	}
-}
-
-@media (max-width: 1024px) {
+@media (768px <= width <= 1600px) {
 	.about-logo {
-		z-index: 100;
+		display: none;
 	}
+}
 
-	.about-main {
-		flex-direction: column;
-	}
-
-	.about-subtitle {
-		padding-top: 20px;
-	}
-	.about-right-side {
-		flex-basis: 100%;
-		order: 1;
-	}
-
-	.about-header {
-		flex-basis: 100%;
-		order: 2;
-	}
-
-	.about-image-container {
-		padding-bottom: 40px;
-	}
-
-	.about-socials-mobile {
-		padding-top: 30px;
-		display: flex;
-	}
+@media (600px < width) {
 }
