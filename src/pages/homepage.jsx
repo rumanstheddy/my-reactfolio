@@ -40,7 +40,7 @@ const Homepage = () => {
 	const [oldLogoSize, setOldLogoSize] = useState(80);
 
 	useEffect(() => {
-		window.scrollTo(0, 0);
+		document.querySelector("body").scrollTo({ top: 0, behavior: "smooth" });
 	}, []);
 
 	useEffect(() => {
