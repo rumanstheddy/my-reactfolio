@@ -2,6 +2,7 @@
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
+	"homepage": "https://rumanstheddy.github.io/my-reactfolio",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
