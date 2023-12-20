@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/rumanstheddy.github.io/my-reactfolio/static/css/main.2ce285ef.chunk.css",
+    "main.js": "/rumanstheddy.github.io/my-reactfolio/static/js/main.f22617c1.chunk.js",
+    "main.js.map": "/rumanstheddy.github.io/my-reactfolio/static/js/main.f22617c1.chunk.js.map",
+    "runtime-main.js": "/rumanstheddy.github.io/my-reactfolio/static/js/runtime-main.e54a7d15.js",
+    "runtime-main.js.map": "/rumanstheddy.github.io/my-reactfolio/static/js/runtime-main.e54a7d15.js.map",
+    "static/js/2.72aaae94.chunk.js": "/rumanstheddy.github.io/my-reactfolio/static/js/2.72aaae94.chunk.js",
+    "static/js/2.72aaae94.chunk.js.map": "/rumanstheddy.github.io/my-reactfolio/static/js/2.72aaae94.chunk.js.map",
+    "static/js/3.205a51e6.chunk.js": "/rumanstheddy.github.io/my-reactfolio/static/js/3.205a51e6.chunk.js",
+    "static/js/3.205a51e6.chunk.js.map": "/rumanstheddy.github.io/my-reactfolio/static/js/3.205a51e6.chunk.js.map",
+    "index.html": "/rumanstheddy.github.io/my-reactfolio/index.html",
+    "precache-manifest.e325263c83f0bdeed6b30a04ab2a2653.js": "/rumanstheddy.github.io/my-reactfolio/precache-manifest.e325263c83f0bdeed6b30a04ab2a2653.js",
+    "service-worker.js": "/rumanstheddy.github.io/my-reactfolio/service-worker.js",
+    "static/css/main.2ce285ef.chunk.css.map": "/rumanstheddy.github.io/my-reactfolio/static/css/main.2ce285ef.chunk.css.map",
+    "static/js/2.72aaae94.chunk.js.LICENSE.txt": "/rumanstheddy.github.io/my-reactfolio/static/js/2.72aaae94.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e54a7d15.js",
+    "static/js/2.72aaae94.chunk.js",
+    "static/css/main.2ce285ef.chunk.css",
+    "static/js/main.f22617c1.chunk.js"
+  ]
+}
