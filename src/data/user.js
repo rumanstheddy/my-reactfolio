@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Sumanth Chinnaobireddy",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I'm a Software Developer specializing in React.js and Node.js. Proficient in crafting scalable, secure, and dependable web applications, I leverage various frameworks and technologies. I thrive on tackling intricate challenges and acquiring new skills. My passion lies in producing high quality code adhering to best practices and industry standards. Eager for fresh challenges, I continually seek opportunities to enhance my skills and evolve as a developer.",
 	},
 
 	about: {
@@ -41,7 +41,7 @@ const INFO = {
 	projects: {
 		title: "My Projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I've been involved in diverse projects throughout my career, and I take pride in the strides we've made. If any of these projects catch your interest, explore the code and share any suggestions for improvements or enhancements. Collaboration is a fantastic opportunity for learning and development, and I welcome new ideas and feedback with open arms. Feel free to connect and share your insights!",
 		list: [
 			{
 				title: "Textful",

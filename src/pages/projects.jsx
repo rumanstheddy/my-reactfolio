@@ -18,6 +18,7 @@ const Projects = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "projects");
 
+	// TODO: Add scroll to the top of the page for projects page in mobile screens
 	return (
 		<React.Fragment>
 			<Helmet>

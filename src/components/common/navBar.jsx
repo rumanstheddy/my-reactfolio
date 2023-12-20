@@ -20,7 +20,6 @@ const NavBar = (props) => {
 					<div className="nav-background">
 						<ul className="nav-list">
 							<li
-								// TODO: Make the website responsive for tablet screens
 								className={
 									active === "home"
 										? "nav-item active"
