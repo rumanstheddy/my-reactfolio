@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Sumanth Chinnaobireddy",
 		description:
-			"I'm a Software Developer specializing in React.js and Node.js. Proficient in crafting scalable, secure, and dependable web applications, I leverage various frameworks and technologies. I thrive on tackling intricate challenges and acquiring new skills. My passion lies in producing high quality code adhering to best practices and industry standards. Eager for fresh challenges, I continually seek opportunities to enhance my skills and evolve as a developer.",
+			"I'm a Software Developer specializing in React.js and Node.js. Proficient in crafting scalable, secure, and dependable web applications, I leverage various frameworks and technologies. I thrive on tackling intricate challenges and acquiring new skills. My passion lies in producing high-quality code adhering to best practices and industry standards. Eager for fresh challenges, I continually seek opportunities to enhance my skills and evolve as a developer.",
 	},
 
 	about: {
