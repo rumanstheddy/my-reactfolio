@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -24,6 +24,23 @@ const About = () => {
 		document.querySelector("body").scrollTo({ top: 0, behavior: "smooth" });
 	}, []);
 
+	// Light mode - dark mode switch logic
+	const [isLightMode, setIsLightMode] = useState(false);
+
+	useEffect(() => {
+		if (typeof localStorage.getItem("isLightMode") === "undefined") {
+			localStorage.setItem("isLightMode", false);
+		}
+
+		setIsLightMode(JSON.parse(localStorage.getItem("isLightMode")));
+	}, []);
+
+	const handleThemeChange = () => {
+		console.log(isLightMode);
+		setIsLightMode(!isLightMode);
+		localStorage.setItem("isLightMode", !isLightMode);
+	};
+
 	const currentSEO = SEO.find((item) => item.page === "about");
 
 	return (
@@ -36,9 +53,15 @@ const About = () => {
 					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
-
-			<div className="page-content">
-				<NavBar active="about" />
+			<div
+				className="page-content"
+				data-theme={isLightMode ? "light" : ""}
+			>
+				<NavBar
+					active="about"
+					handleThemeChange={() => handleThemeChange()}
+					isLightMode={isLightMode}
+				/>
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">

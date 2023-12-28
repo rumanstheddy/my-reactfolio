@@ -7,7 +7,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-	background-color: var(--bg-color);
 }
 
 ::-webkit-scrollbar {
@@ -31,6 +30,9 @@ body {
 	/* background-color: white; */
 	/* background-color: var(--bg-color); */
 	position: relative;
+	height: 100%;
+	overflow: hidden;
+	background-color: var(--bg-color);
 }
 
 /* .page-content:before,

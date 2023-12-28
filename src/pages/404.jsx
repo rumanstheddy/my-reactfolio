@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faFaceSadTear } from "@fortawesome/free-regular-svg-icons";
@@ -15,10 +15,34 @@ const Notfound = () => {
 		document.title = `404 | ${INFO.main.title}`;
 	}, []);
 
+	// Light mode - dark mode switch logic
+	const [isLightMode, setIsLightMode] = useState(false);
+
+	useEffect(() => {
+		if (typeof localStorage.getItem("isLightMode") === "undefined") {
+			localStorage.setItem("isLightMode", false);
+		}
+
+		setIsLightMode(JSON.parse(localStorage.getItem("isLightMode")));
+	}, []);
+
+	const handleThemeChange = () => {
+		console.log(isLightMode);
+		setIsLightMode(!isLightMode);
+		localStorage.setItem("isLightMode", !isLightMode);
+	};
+
 	return (
 		<React.Fragment>
-			<div className="not-found page-content">
-				<NavBar />
+			<div
+				className="not-found page-content"
+				data-theme={isLightMode ? "light" : ""}
+			>
+				<NavBar
+					active="projects"
+					handleThemeChange={() => handleThemeChange()}
+					isLightMode={isLightMode}
+				/>
 				<div className="content-wrapper">
 					<div className="notfound-logo-container">
 						<div className="projects-logo">

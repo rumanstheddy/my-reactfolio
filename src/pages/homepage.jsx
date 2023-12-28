@@ -33,6 +33,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Toggle from "../components/common/toggle";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -67,13 +68,30 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
+	// Light mode - dark mode switch logic
+	const [isLightMode, setIsLightMode] = useState(false);
+
+	useEffect(() => {
+		if (typeof localStorage.getItem("isLightMode") === "undefined") {
+			localStorage.setItem("isLightMode", false);
+		}
+
+		setIsLightMode(JSON.parse(localStorage.getItem("isLightMode")));
+	}, []);
+
+	const handleThemeChange = () => {
+		console.log(isLightMode);
+		setIsLightMode(!isLightMode);
+		localStorage.setItem("isLightMode", !isLightMode);
+	};
+
 	const currentSEO = SEO.find((item) => item.page === "home");
 
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
 		top: stayLogo ? "3vh" : "auto",
-		zIndex: 999,
+		zIndex: 2,
 		border: stayLogo ? "1px solid white" : "none",
 		borderRadius: stayLogo ? "50%" : "none",
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
@@ -94,9 +112,15 @@ const Homepage = () => {
 					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
-
-			<div className="page-content">
-				<NavBar active="home" />
+			<div
+				className="page-content"
+				data-theme={isLightMode ? "light" : ""}
+			>
+				<NavBar
+					active="home"
+					handleThemeChange={() => handleThemeChange()}
+					isLightMode={isLightMode}
+				/>
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
@@ -193,6 +217,10 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
+						{/* <Toggle
+							handleChange={() => handleThemeChange()}
+							isChecked={isLightMode}
+						/> */}
 
 						<div className="all-home-cards-container">
 							{/* <div className="homepage-articles">

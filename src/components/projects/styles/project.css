@@ -15,7 +15,7 @@
 
 .project:hover {
 	/* background: #f7f7f7; */
-	background: #090909;
+	background: var(--card-hover-color);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }

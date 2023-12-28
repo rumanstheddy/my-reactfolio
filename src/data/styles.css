@@ -9,7 +9,10 @@
 	--quaternary-color: #e4e4e7;
 	--link-color: #9287ff;
 	--bg-color: #292929;
+	/* --nav-bg-color: #fff; */
 	--nav-bg-color: #3e3e3e;
+	/* --card-hover-color: #f7f7f7; */
+	--card-hover-color: #090909;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
@@ -17,4 +20,12 @@
 	--secondary-font: "Crimson Text", sans-serif;
 	--tertiary-font: "Heebo", sans-serif;
 	/* --------------------- */
+}
+
+[data-theme="light"] {
+	--primary-color: #27272a;
+	--secondary-color: #65656d;
+	--bg-color: white;
+	--nav-bg-color: white;
+	--card-hover-color: #f7f7f7;
 }

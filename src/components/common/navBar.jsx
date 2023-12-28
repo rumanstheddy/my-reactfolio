@@ -1,22 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import "./styles/navBar.css";
 import {
 	faBriefcase,
 	faHome,
 	faProjectDiagram,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Toggle from "./toggle";
 
-const NavBar = (props) => {
-	const { active } = props;
-	console.log("active: ", active);
+import "./styles/navBar.css";
+
+const NavBar = ({active, handleThemeChange, isLightMode }) => {
+	// const { active } = props;
+	// console.log("active: ", active);
 
 	return (
 		<React.Fragment>
 			<div className="nav-container">
 				<nav className="navbar">
+					<Toggle
+						handleThemeChange={handleThemeChange}
+						isLightMode={isLightMode}
+					/>
 					<div className="nav-background">
 						<ul className="nav-list">
 							<li
