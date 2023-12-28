@@ -143,7 +143,10 @@ img {
 }
 
 @media (320px <= width <= 768px) {
-	::-webkit-scrollbar {
+	::-webkit-scrollbar,
+	::-webkit-scrollbar-track,
+	::-webkit-scrollbar-thumb,
+	::-webkit-scrollbar-thumb:hover {
 		display: none;
 	}
 }
