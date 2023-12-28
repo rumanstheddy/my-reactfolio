@@ -1,10 +1,14 @@
 :root {
 	/* ------- colors ------- */
-	--primary-color: #27272a;
-	--secondary-color: #65656d;
+	/* TODO: Add another class which switches color modes *//* --primary-color: #27272a; */
+	--primary-color: #eaeaea;
+	--secondary-color: #aeaeae;
+	/* --secondary-color: #65656d; */
 	--tertiary-color: #acacb4;
 	--quaternary-color: #e4e4e7;
 	--link-color: #9287ff;
+	--bg-color: #292929;
+	--nav-bg-color: #3e3e3e;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
