@@ -105,6 +105,10 @@ div.theme-icons {
 	opacity: 0;
 } */
 
+.theme-icons:hover {
+	background: var(--card-hover-color);
+}
+
 @media (min-width: 1600px) {
 	div.theme-icons {
 		height: 2.5em;
