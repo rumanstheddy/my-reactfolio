@@ -10,7 +10,7 @@ import Toggle from "./toggle";
 
 import "./styles/navBar.css";
 
-const NavBar = ({active, handleThemeChange, isLightMode }) => {
+const NavBar = ({ active, handleThemeChange, isLightMode }) => {
 	// const { active } = props;
 	// console.log("active: ", active);
 
@@ -18,10 +18,6 @@ const NavBar = ({active, handleThemeChange, isLightMode }) => {
 		<React.Fragment>
 			<div className="nav-container">
 				<nav className="navbar">
-					<Toggle
-						handleThemeChange={handleThemeChange}
-						isLightMode={isLightMode}
-					/>
 					<div className="nav-background">
 						<ul className="nav-list">
 							<li
@@ -103,6 +99,10 @@ const NavBar = ({active, handleThemeChange, isLightMode }) => {
 							</li> */}
 						</ul>
 					</div>
+					<Toggle
+						handleThemeChange={handleThemeChange}
+						isLightMode={isLightMode}
+					/>
 				</nav>
 			</div>
 		</React.Fragment>
