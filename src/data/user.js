@@ -80,12 +80,12 @@ const INFO = {
 			},
 
 			{
-				title: "Wcast",
+				title: "Meteoscope",
 				description:
-					"A free to use weather forecast app being made using React.",
+					"A free to use weather forecast app being made using React and Open Meteo API.",
 				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 				linkText: "View Project",
-				link: "https://github.com/rumanstheddy/w-cast",
+				link: "https://github.com/rumanstheddy/meteoscope",
 			},
 		],
 	},
