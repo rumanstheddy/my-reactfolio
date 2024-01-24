@@ -126,10 +126,11 @@ const TotalExperience = () => {
 									Participating in code reviews became a
 									cornerstone of my approach, fostering a
 									collaborative and learning-oriented
-									environment. I implemented rigorous testing
-									methodologies with Postman, ensuring
-									seamless validation of APIs and guaranteeing
-									robust functionality and integration.
+									environment. I implemented a comprehensive
+									Jest testing suite, achieving a 10%
+									reduction in bug resolution time and
+									ensuring robust code quality throughout the
+									development cycle.
 								</li>
 								<li>
 									Demonstrating proficiency in version
@@ -148,14 +149,14 @@ const TotalExperience = () => {
 									reliable software development process.
 								</li>
 								<li>
-									In the realm of automation, I utilized
-									Jenkins to orchestrate the build process,
-									ensuring swift and efficient compilation and
-									deployments. My collaboration with UX and
-									cross-functional teams showcased my
-									commitment to designing, implementing, and
-									maintaining software solutions in compliance
-									with industry standards.
+									I utilized Jenkins to orchestrate the build
+									process, ensuring swift and efficient
+									compilation and deployments. My
+									collaboration with UX and cross-functional
+									teams showcased my commitment to designing,
+									implementing, and maintaining software
+									solutions in compliance with industry
+									standards.
 								</li>
 								<li>
 									Active participation in Agile methodologies
@@ -272,18 +273,23 @@ const TotalExperience = () => {
 							<div className="work-summary">
 								<ul>
 									<li>
-										Coded a support application using
-										Python3 and PyQt5 and collaborated with
-										5 other interns to improve the
-										development team's productivity.
+										Developed an Employee Efficiency
+										Dashboard using JavaScript, HTML, CSS,
+										and jQuery, showcasing Key Performance
+										Indicators (KPIs) like productivity
+										rates and user engagement analytics.
 									</li>
 									<li>
-										Resolved technical issues by testing
-										support application's GUI for usability.
+										Implemented Highcharts for dynamic data
+										visualization, enhancing usability by
+										15%, improving overall dashboard
+										effectiveness.
 									</li>
 									<li>
-										Raised PRs and pushed front-end fixes to
-										GitHub.
+										Reduced code verbosity by 20% through
+										optimized Ajax data fetching strategies,
+										enhancing code simplicity and
+										maintainability.
 									</li>
 								</ul>
 							</div>
