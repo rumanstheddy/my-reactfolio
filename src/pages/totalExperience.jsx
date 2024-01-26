@@ -97,73 +97,82 @@ const TotalExperience = () => {
 						<div className="work-summary">
 							<ul>
 								<li>
-									I played a pivotal role in advancing the
-									technological landscape through my
-									contributions to the development and
-									enhancement of a cash-ordering module for
-									the central treasury portal, 'SinglePoint.'
-									Leveraging React.js and U.S. Bank’s React
-									component library, 'Shield,' I orchestrated
-									a 25% surge in pilot customer engagement by
-									crafting an intuitive and streamlined user
-									interface. This optimization not only
-									enhanced convenience but also increased
-									accessibility in cash transactions.
+									Spearheaded the modernization of
+									SinglePoint, U.S. Bank's central treasury
+									portal, by transitioning the cash-ordering
+									module from Java and JSP to modern
+									JavaScript and React, delivering a
+									streamlined and intuitive user experience
+									with a 25% surge in engagement.
 								</li>
 								<li>
-									My commitment extended to the maintenance
-									and contribution to the 'Shield' component
-									library, where I harmonized development
-									workflows. My active involvement ensured
-									coherence across various projects by
-									employing a robust tech stack, including
-									HTML, JavaScript, CSS, and SASS. This
-									meticulous engagement guaranteed consistency
-									and scalability in design across multiple
-									projects.
+									Built key React.js components using HTML,
+									CSS, SASS and Shield, U.S. Bank's internal
+									design framework, expanding functionality
+									and scalability.
 								</li>
 								<li>
-									Participating in code reviews became a
-									cornerstone of my approach, fostering a
-									collaborative and learning-oriented
-									environment. I implemented a comprehensive
-									Jest testing suite, achieving a 10%
-									reduction in bug resolution time and
-									ensuring robust code quality throughout the
-									development cycle.
+									Implemented Context API and provider classes
+									to establish a centralized state management
+									system improving code reusability, reducing
+									redundancy, and ensuring streamlined data
+									flow across components.
 								</li>
 								<li>
-									Demonstrating proficiency in version
-									control, I utilized Git and Gitlab for
-									effective code collaboration. Employing
-									advanced branching and merging strategies, I
-									streamlined the development process and
-									ensured code integrity.
+									Utilized Axios within provider classes to
+									implement efficient and streamlined
+									asynchronous data fetching for cash order
+									and user information while also including
+									error handling mechanisms for API
+									interactions, ensuring graceful fallbacks
+									and clear user error messages.
 								</li>
 								<li>
-									Leveraging SonarQube, I enforced coding
-									standards, enhancing overall code quality
-									and identifying potential issues early in
-									the development cycle. This proactive
-									approach fostered a more efficient and
-									reliable software development process.
+									Leveraged state management and component
+									lifecycle methods to build dynamic and
+									responsive cash denomination forms with
+									accessible modals and responsive tables,
+									optimizing user experience and streamlining
+									workflows across various screen sizes.
 								</li>
 								<li>
-									I utilized Jenkins to orchestrate the build
-									process, ensuring swift and efficient
-									compilation and deployments. My
-									collaboration with UX and cross-functional
-									teams showcased my commitment to designing,
-									implementing, and maintaining software
-									solutions in compliance with industry
-									standards.
+									Enhanced UI consistency and accessibility
+									across the application through A11y
+									compliance and internal design principles.
 								</li>
 								<li>
-									Active participation in Agile methodologies
-									marked my commitment to efficient project
-									deliveries. From sprint planning to
-									stand-ups and retrospectives, I ensured a
-									cohesive and timely execution of projects.
+									Reduced bug resolution time by 10% with
+									comprehensive Jest testing suites,
+									guaranteeing robust code quality.
+								</li>
+								<li>
+									Streamlined build automation through
+									Jenkins, expediting project timelines with
+									swift compilation and deployments.
+								</li>
+								<li>
+									Instituted Postman to implement rigorous API
+									validation methodologies, ensuring seamless
+									data integration.
+								</li>
+								<li>
+									Demonstrated expertise in Git and Gitlab,
+									orchestrating advanced branching strategies
+									to streamline code collaboration.
+								</li>
+								<li>
+									Fostered collaboration with UX experts and
+									developers, translating Figma wireframes
+									into intuitive web pages. Ensured
+									industry-standard compliance and optimal
+									software solutions through effective
+									cross-functional teamwork.
+								</li>
+								<li>
+									Championed Agile methodology, facilitating
+									daily stand-up meetings, sprint planning,
+									consistent progress and on-time project
+									delivery.
 								</li>
 							</ul>
 						</div>
