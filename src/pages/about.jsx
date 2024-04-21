@@ -63,11 +63,11 @@ const About = () => {
 					isLightMode={isLightMode}
 				/>
 				<div className="content-wrapper">
-					<div className="about-logo-container">
+					{/* <div className="about-logo-container">
 						<div className="about-logo">
 							<Logo width={46} />
 						</div>
-					</div>
+					</div> */}
 
 					<div className="about-container">
 						<div className="about-main">

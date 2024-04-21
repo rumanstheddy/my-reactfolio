@@ -123,9 +123,9 @@ const Homepage = () => {
 				/>
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
-						<div style={logoStyle}>
+						{/* <div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
-						</div>
+						</div> */}
 					</div>
 
 					<div className="homepage-container">
