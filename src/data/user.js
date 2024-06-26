@@ -20,13 +20,12 @@ const INFO = {
 		description:
 			"I'm a Software Developer specializing in React.js and Node.js. Proficient in crafting scalable, secure, and dependable web applications, I leverage various frameworks and technologies. I thrive on tackling intricate challenges and acquiring new skills. My passion lies in producing high-quality code adhering to best practices and industry standards. Eager for fresh challenges, I continually seek opportunities to enhance my skills and evolve as a developer.",
 	},
-
 	about: {
 		title: "Career Path",
 		description:
 			"Dive into my journey – from academic milestones to professional endeavours. Discover my story in a resumé format.",
 		download: {
-			link: "https://dl.dropboxusercontent.com/scl/fi/syp2aoatb55c7ozso85o5/Resume2024-4.pdf?rlkey=1pn6gka5mzmmyul6k6epqq6mq&dl=0",
+			link: "https://dl.dropboxusercontent.com/scl/fi/piecj287psmll1hq3z77c/Resume2024-8.pdf?rlkey=l6tb15nseflk0ms9kh2dmuhts&st=io6fpnqy&dl=0",
 			title: "My Resumé",
 			// description: "",
 		},
