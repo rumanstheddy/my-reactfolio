@@ -76,14 +76,19 @@ const INFO = {
 					"Playscore Pal is a web-based platform built with Next.js, Node.js, Express, GraphQL, and MongoDB, utilizing the IGDB API. It empowers users to rate, review, and recommend games.",
 				tech: [
 					buildImgShieldLink("Typescript", "090909", "3178C6"),
-					buildImgShieldLink("Next.js", "090909", "FFFFFF", "next.js"),
+					buildImgShieldLink(
+						"Next.js",
+						"090909",
+						"FFFFFF",
+						"next.js"
+					),
 					buildImgShieldLink("MongoDB", "090909", "47A248"),
 					buildImgShieldLink("GraphQL", "090909", "DA0393"),
 					buildImgShieldLink("Tailwind CSS", "090909", "06B6D4"),
 					buildImgShieldLink("NodeJS", "090909", "339933", "node.js"),
 				],
 				linkText: "View Project",
-				link: "https://github.com/rumanstheddy/meteoscope",
+				link: "https://github.com/rumanstheddy/ss-play-score-pal",
 			},
 
 			{
