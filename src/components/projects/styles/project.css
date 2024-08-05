@@ -78,13 +78,15 @@
 
 @media (320px <= width <= 768px) {
 	.project {
-		height: 250px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	div.project-link {
 		display: flex;
 		justify-content: center;
 		padding-top: 25px;
+		height: max-content;
 	}
 
 	.project-link-icon {
