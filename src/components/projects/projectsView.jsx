@@ -6,13 +6,13 @@ import INFO from "../../data/user";
 
 import "./styles/allProjects.css";
 
-const AllProjects = () => {
+const ProjectsView = () => {
 	return (
 		<div className="all-projects-container">
 			{INFO.projects.list.map((project, index) => (
 				<div className="all-projects-project" key={index}>
 					<Project
-						logo={project.logo}
+						tech={project.tech}
 						title={project.title}
 						description={project.description}
 						linkText={project.linkText}
@@ -24,4 +24,4 @@ const AllProjects = () => {
 	);
 };
 
-export default AllProjects;
+export default ProjectsView;

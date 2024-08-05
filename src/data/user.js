@@ -1,3 +1,15 @@
+const buildImgShieldLink = (techName, bgColor, logoColor, logoName) => {
+	return `https://img.shields.io/badge/-${techName}-${bgColor}?logo=${
+		logoName
+			? logoName
+			: techName
+					.toLowerCase()
+					.replace(/[^a-zA-Z0-9\s.]/g, "")
+					.split(" ")
+					.join("")
+	}&logoColor=${logoColor}&style=for-the-badge&logoWidth=30`;
+};
+
 const INFO = {
 	main: {
 		title: "Sumanth Chinnaobireddy",
@@ -45,46 +57,61 @@ const INFO = {
 			{
 				title: "Textful",
 				description:
-					"Textful is a web-based application, made using React and Node.js that enables its users to exchange text messages directly.",
-				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+					"Textful is a web-based application, made using React, Node.js and MongoDb that enables its users to exchange text messages directly.",
+				tech: [
+					buildImgShieldLink("JavaScript", "090909", "F7DF1E"),
+					buildImgShieldLink("React", "090909", "61DAFB"),
+					buildImgShieldLink("MongoDB", "090909", "47A248"),
+					buildImgShieldLink("CSS3", "090909", "1572B6"),
+					buildImgShieldLink("NodeJS", "090909", "339933", "node.js"),
+					buildImgShieldLink("Express", "090909", "FFFFFF"),
+				],
 				linkText: "View Project",
 				link: "https://github.com/rumanstheddy/project-textful",
 			},
 
-			// {
-			// 	title: "Project 2",
-			// 	description:
-			// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			// 	linkText: "View Project",
-			// 	link: "https://github.com",
-			// },
-
-			// {
-			// 	title: "Project 3",
-			// 	description:
-			// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			// 	linkText: "View Project",
-			// 	link: "https://github.com",
-			// },
-
 			{
-				title: "AngularChrono",
+				title: "Playscore Pal",
 				description:
-					"Exploring Angular basics, I built a hands-on mobile-responsive Stop Watch web app.",
-				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+					"Playscore Pal is a web-based platform built with Next.js, Node.js, Express, GraphQL, and MongoDB, utilizing the IGDB API. It empowers users to rate, review, and recommend games.",
+				tech: [
+					buildImgShieldLink("Typescript", "090909", "3178C6"),
+					buildImgShieldLink("Next.js", "090909", "FFFFFF", "next.js"),
+					buildImgShieldLink("MongoDB", "090909", "47A248"),
+					buildImgShieldLink("GraphQL", "090909", "DA0393"),
+					buildImgShieldLink("Tailwind CSS", "090909", "06B6D4"),
+					buildImgShieldLink("NodeJS", "090909", "339933", "node.js"),
+				],
 				linkText: "View Project",
-				link: "https://github.com/rumanstheddy/Ang-Stop-Watch",
+				link: "https://github.com/rumanstheddy/meteoscope",
 			},
 
 			{
 				title: "Meteoscope",
 				description:
-					"A free to use weather forecast app being made using React and Open Meteo API.",
-				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+					"Meteoscope is a weather forecast app I made using React, Chakra UI and Open Meteo API.",
+				tech: [
+					buildImgShieldLink("JavaScript", "090909", "F7DF1E"),
+					buildImgShieldLink("React", "090909", "61DAFB"),
+					buildImgShieldLink("chakra--ui", "090909", "67C9CB"),
+					buildImgShieldLink("NodeJS", "090909", "339933", "node.js"),
+				],
 				linkText: "View Project",
 				link: "https://github.com/rumanstheddy/meteoscope",
+			},
+
+			{
+				title: "AngularChrono",
+				description:
+					"Exploring Angular basics and SASS, I built a hands-on mobile-responsive Stop Watch web app.",
+				tech: [
+					buildImgShieldLink("Angular", "090909", "D70230"),
+					buildImgShieldLink("Typescript", "090909", "3178C6"),
+					buildImgShieldLink("Sass", "090909", "CC6699"),
+					buildImgShieldLink("NodeJS", "090909", "339933", "node.js"),
+				],
+				linkText: "View Project",
+				link: "https://github.com/rumanstheddy/Ang-Stop-Watch",
 			},
 		],
 	},

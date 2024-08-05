@@ -57,6 +57,7 @@
 	color: var(--secondary-color);
 	font-size: 12px;
 	padding-top: 20px;
+	margin-bottom: 2em;
 }
 
 .project-link-icon {
@@ -67,6 +68,12 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
+}
+
+.tech-name {
+	margin-right: 5px;
+	border-radius: 10px;
+	background: var(--card-hover-color);
 }
 
 @media (320px <= width <= 768px) {

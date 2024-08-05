@@ -3,15 +3,14 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
-import AllProjects from "../components/projects/allProjects";
+import ProjectsView from "../components/projects/projectsView";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/projects.css";
 
-const Projects = () => {
+const ProjectsPage = () => {
 	useEffect(() => {
 		document.querySelector("body").scrollTo({ top: 0, behavior: "smooth" });
 	}, []);
@@ -71,7 +70,7 @@ const Projects = () => {
 						</div>
 
 						<div className="projects-list">
-							<AllProjects />
+							<ProjectsView />
 						</div>
 					</div>
 					<div className="page-footer">
@@ -83,4 +82,4 @@ const Projects = () => {
 	);
 };
 
-export default Projects;
+export default ProjectsPage;
