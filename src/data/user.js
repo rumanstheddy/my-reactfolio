@@ -10,6 +10,8 @@ const buildImgShieldLink = (techName, bgColor, logoColor, logoName) => {
 	}&logoColor=${logoColor}&style=for-the-badge&logoWidth=30`;
 };
 
+const defaultbgColor = "141414";
+
 const INFO = {
 	main: {
 		title: "Sumanth Chinnaobireddy",
@@ -39,7 +41,6 @@ const INFO = {
 		download: {
 			link: "https://dl.dropboxusercontent.com/scl/fi/piecj287psmll1hq3z77c/Resume2024-8.pdf?rlkey=l6tb15nseflk0ms9kh2dmuhts&st=io6fpnqy&dl=0",
 			title: "My Resumé",
-			// description: "",
 		},
 	},
 
@@ -59,12 +60,17 @@ const INFO = {
 				description:
 					"Textful is a web-based application, made using React, Node.js and MongoDb that enables its users to exchange text messages directly.",
 				tech: [
-					buildImgShieldLink("JavaScript", "141414", "F7DF1E"),
-					buildImgShieldLink("React", "141414", "61DAFB"),
-					buildImgShieldLink("MongoDB", "141414", "47A248"),
-					buildImgShieldLink("CSS3", "141414", "1572B6"),
-					buildImgShieldLink("NodeJS", "141414", "339933", "node.js"),
-					buildImgShieldLink("Express", "141414", "FFFFFF"),
+					buildImgShieldLink("JavaScript", defaultbgColor, "F7DF1E"),
+					buildImgShieldLink("React", defaultbgColor, "61DAFB"),
+					buildImgShieldLink("MongoDB", defaultbgColor, "47A248"),
+					buildImgShieldLink("CSS3", defaultbgColor, "1572B6"),
+					buildImgShieldLink(
+						"NodeJS",
+						defaultbgColor,
+						"339933",
+						"node.js"
+					),
+					buildImgShieldLink("Express", defaultbgColor, "FFFFFF"),
 				],
 				linkText: "View Project",
 				link: "https://github.com/rumanstheddy/project-textful",
@@ -75,17 +81,26 @@ const INFO = {
 				description:
 					"Playscore Pal is a web-based platform built with Next.js, Node.js, Express, GraphQL, and MongoDB, utilizing the IGDB API. It empowers users to rate, review, and recommend games.",
 				tech: [
-					buildImgShieldLink("Typescript", "141414", "3178C6"),
+					buildImgShieldLink("Typescript", defaultbgColor, "3178C6"),
 					buildImgShieldLink(
 						"Next.js",
-						"141414",
+						defaultbgColor,
 						"FFFFFF",
 						"next.js"
 					),
-					buildImgShieldLink("MongoDB", "141414", "47A248"),
-					buildImgShieldLink("GraphQL", "141414", "DA0393"),
-					buildImgShieldLink("Tailwind CSS", "141414", "06B6D4"),
-					buildImgShieldLink("NodeJS", "141414", "339933", "node.js"),
+					buildImgShieldLink("MongoDB", defaultbgColor, "47A248"),
+					buildImgShieldLink("GraphQL", defaultbgColor, "DA0393"),
+					buildImgShieldLink(
+						"Tailwind CSS",
+						defaultbgColor,
+						"06B6D4"
+					),
+					buildImgShieldLink(
+						"NodeJS",
+						defaultbgColor,
+						"339933",
+						"node.js"
+					),
 				],
 				linkText: "View Project",
 				link: "https://github.com/rumanstheddy/ss-play-score-pal",
@@ -96,10 +111,15 @@ const INFO = {
 				description:
 					"Meteoscope is a weather forecast app I made using React, Chakra UI and Open Meteo API.",
 				tech: [
-					buildImgShieldLink("JavaScript", "141414", "F7DF1E"),
-					buildImgShieldLink("React", "141414", "61DAFB"),
-					buildImgShieldLink("chakra--ui", "141414", "67C9CB"),
-					buildImgShieldLink("NodeJS", "141414", "339933", "node.js"),
+					buildImgShieldLink("JavaScript", defaultbgColor, "F7DF1E"),
+					buildImgShieldLink("React", defaultbgColor, "61DAFB"),
+					buildImgShieldLink("chakra--ui", defaultbgColor, "67C9CB"),
+					buildImgShieldLink(
+						"NodeJS",
+						defaultbgColor,
+						"339933",
+						"node.js"
+					),
 				],
 				linkText: "View Project",
 				link: "https://github.com/rumanstheddy/meteoscope",
@@ -110,10 +130,15 @@ const INFO = {
 				description:
 					"Exploring Angular basics and SASS, I built a hands-on mobile-responsive Stop Watch web app.",
 				tech: [
-					buildImgShieldLink("Angular", "141414", "D70230"),
-					buildImgShieldLink("Typescript", "141414", "3178C6"),
-					buildImgShieldLink("Sass", "141414", "CC6699"),
-					buildImgShieldLink("NodeJS", "141414", "339933", "node.js"),
+					buildImgShieldLink("Angular", defaultbgColor, "D70230"),
+					buildImgShieldLink("Typescript", defaultbgColor, "3178C6"),
+					buildImgShieldLink("Sass", defaultbgColor, "CC6699"),
+					buildImgShieldLink(
+						"NodeJS",
+						defaultbgColor,
+						"339933",
+						"node.js"
+					),
 				],
 				linkText: "View Project",
 				link: "https://github.com/rumanstheddy/Ang-Stop-Watch",
