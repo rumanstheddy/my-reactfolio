@@ -282,23 +282,25 @@ const TotalExperience = () => {
 							<div className="work-summary">
 								<ul>
 									<li>
-										Developed an Employee Efficiency
-										Dashboard using JavaScript, HTML, CSS,
-										and jQuery, showcasing Key Performance
-										Indicators (KPIs) like productivity
-										rates and user engagement analytics.
+										Built a dashboard using Angular,
+										TypeScript, HTML, and CSS to display key
+										metrics like productivity rates and user
+										engagement.
 									</li>
 									<li>
-										Implemented Highcharts for dynamic data
-										visualization, enhancing usability by
-										15%, improving overall dashboard
-										effectiveness.
+										Utilized HttpClient for data fetching,
+										dynamically loading and displaying
+										real-time data on the dashboard.
 									</li>
 									<li>
-										Reduced code verbosity by 20% through
-										optimized Ajax data fetching strategies,
-										enhancing code simplicity and
-										maintainability.
+										Enhanced the dashboard’s responsiveness,
+										ensuring a smooth experience across
+										different devices.
+									</li>
+									<li>
+										Collaborated with two other interns to
+										improve the overall functionality and
+										user experience of the dashboard.
 									</li>
 								</ul>
 							</div>
