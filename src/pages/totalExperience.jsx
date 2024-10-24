@@ -97,13 +97,13 @@ const TotalExperience = () => {
 						<div className="work-summary">
 							<ul>
 								<li>
-									Spearheaded the modernization of
-									SinglePoint, U.S. Bank's central treasury
-									portal, by developing the portal’s
-									cash-ordering module UI in modern JavaScript
-									and React, delivering a streamlined and
-									intuitive user experience with a 25% surge
-									in engagement.
+									Led UI development for the treasury portal’s
+									cash-ordering module using React and
+									JavaScript, adding dynamic denomination
+									forms and accessible features, resulting in
+									a 25% increase in users preferring the new
+									app over the legacy version (via A/B
+									testing).
 								</li>
 								<li>
 									Built key React.js components using HTML,
