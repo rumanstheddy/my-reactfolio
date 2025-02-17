@@ -99,7 +99,7 @@ const TotalExperience = () => {
 								<li>
 									Led UI development for the treasury portal’s
 									cash-ordering module using React and
-									JavaScript, adding dynamic denomination
+									TypeScript, adding dynamic denomination
 									forms and accessible features, resulting in
 									a 25% increase in users preferring the new
 									app over the legacy version (via A/B
