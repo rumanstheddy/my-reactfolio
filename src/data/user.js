@@ -38,7 +38,7 @@ const INFO = {
 		description:
 			"Dive into my journey – from academic milestones to professional endeavours. Discover my story in a resumé format.",
 		download: {
-			link: "https://dl.dropboxusercontent.com/scl/fi/ee1binbredc2g73qypt8x/Resume2024-14.pdf?rlkey=a8rltrs9ditt1onn5h1yj861y&st=m4vjru7s&dl=0",
+			link: "https://dl.dropboxusercontent.com/scl/fi/k79mavibquesqih3kr4c0/Resume2024-15.pdf?rlkey=77nzzbav2jkibhsvip8yal7xf&st=r2yzuokz&dl=0",
 			title: "My Resumé",
 		},
 	},
