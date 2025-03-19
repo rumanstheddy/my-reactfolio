@@ -38,7 +38,7 @@ const INFO = {
 		description:
 			"Dive into my journey – from academic milestones to professional endeavours. Discover my story in a resumé format.",
 		download: {
-			link: "https://dl.dropboxusercontent.com/scl/fi/k79mavibquesqih3kr4c0/Resume2024-15.pdf?rlkey=77nzzbav2jkibhsvip8yal7xf&st=r2yzuokz&dl=0",
+			link: "https://dl.dropboxusercontent.com/scl/fi/iqd3ri0kwyuixp83oryus/Sumanth-Reddy-Resume.pdf?rlkey=jp9jxgp1iqqlpasg6j47e0ca0&st=kysximz4&dl=0",
 			title: "My Resumé",
 		},
 	},
