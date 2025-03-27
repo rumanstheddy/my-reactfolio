@@ -53,6 +53,18 @@
 	padding-right: 30px;
 }
 
+.work-location {
+	/* position: absolute; */
+	width: 350px;
+	font-size: 14px;
+	font-weight: 500;
+
+	/* padding-top: 20px; */
+	text-align: right;
+	color: var(--secondary-color);
+	padding-right: 30px;
+}
+
 .work-details-container {
 	width: 940px;
 	display: flex;

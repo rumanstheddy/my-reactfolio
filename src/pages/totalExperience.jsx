@@ -75,193 +75,67 @@ const TotalExperience = () => {
 						</div>
 						<div className="work-details-container">
 							<div className="work-subtitle">
-								Software Engineer | Contract
+								Front-end Software Engineer
 							</div>
 							<div className="work-duration">
-								July 2021 - Present
+								July 2021 - June 2024
 							</div>
+							{/* <div className="work-location">Remote</div> */}
 						</div>
 
-						{/* <div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div> */}
 						<div className="work-summary">
 							<ul>
 								<li>
-									Led UI development for the treasury portal’s
-									cash-ordering module using React and
-									TypeScript, adding dynamic denomination
-									forms and accessible features, resulting in
-									a 25% increase in users preferring the new
-									app over the legacy version (via A/B
-									testing).
+									Piloted front-end development of the
+									treasury portal's cash-ordering module
+									utilizing React and TypeScript, integrating
+									accessible features that enhanced adoption
+									by approximately 25% based on A/B testing.
 								</li>
 								<li>
-									Built key React.js components using HTML,
-									CSS, SASS and Shield, U.S. Bank's internal
-									design framework, expanding functionality
-									and scalability.
+									Collaborated with designers and backend
+									engineers to build pixel-perfect, responsive
+									UIs for desktop and mobile using React.js,
+									HTML, CSS, and SASS.
 								</li>
 								<li>
-									Implemented Context API and provider classes
-									to establish a centralized state management
-									system improving code reusability, reducing
-									redundancy, and ensuring streamlined data
-									flow across components.
+									Designed and implemented scalable React
+									components utilizing the company's UI
+									framework, which accelerated feature
+									deployment cycles by 30% enhancing
+									cash-ordering module adoption.
 								</li>
 								<li>
-									Utilized Axios within provider classes to
-									implement efficient and streamlined
-									asynchronous data fetching for cash order
-									and user information while also including
-									error handling mechanisms for API
-									interactions, ensuring graceful fallbacks
-									and clear user error messages.
+									Implemented React Context API for
+									centralized state management, enhancing data
+									consistency and reducing workflow errors.
 								</li>
 								<li>
-									Leveraged state management and component
-									lifecycle methods to build dynamic and
-									responsive cash denomination forms with
-									accessible modals and responsive tables,
-									optimizing user experience and streamlining
-									workflows across various screen sizes.
+									Designed a REST API wrapper with Java Spring
+									Boot, improving code maintainability ratings
+									from 2/4 to 4/4 among engineers.
 								</li>
 								<li>
-									Enhanced UI consistency and accessibility
-									across the application through A11y
-									compliance and internal design principles.
+									Advanced application security by composing
+									100+ Jest suites, elevating test coverage to
+									address critical vulnerabilities and
+									securing a personal achievement of running
+									tests in under 3 minutes.
 								</li>
 								<li>
-									Reduced bug resolution time by 10% with
-									comprehensive Jest testing suites,
-									guaranteeing robust code quality.
-								</li>
-								<li>
-									Streamlined build automation through
-									Jenkins, expediting project timelines with
-									swift compilation and deployments.
-								</li>
-								<li>
-									Instituted Postman to implement rigorous API
-									validation methodologies, ensuring seamless
-									data integration.
-								</li>
-								<li>
-									Demonstrated expertise in Git and Gitlab,
-									orchestrating advanced branching strategies
-									to streamline code collaboration.
-								</li>
-								<li>
-									Fostered collaboration with UX experts and
-									developers, translating Figma wireframes
-									into intuitive web pages. Ensured
-									industry-standard compliance and optimal
-									software solutions through effective
-									cross-functional teamwork.
-								</li>
-								<li>
-									Championed Agile methodology, facilitating
-									daily stand-up meetings, sprint planning,
-									consistent progress and on-time project
+									Mentored two offshore developers, ensuring
+									seamless onboarding and faster project
 									delivery.
+								</li>
+								<li>
+									Facilitated Agile practices including sprint
+									planning, daily stand-ups, and
+									retrospectives to ensure timely product
+									releases.
 								</li>
 							</ul>
 						</div>
 						<br />
-						<div className="works-body">
-							<div className="work">
-								<img
-									src={process.env.PUBLIC_URL + "/NEU.png"}
-									alt="Northeastern University logo"
-									className="work-image"
-								/>
-								<div className="work-title">
-									Northeastern University
-								</div>
-							</div>
-							<div className="work-details-container">
-								<div className="work-subtitle">
-									Graduate Teaching Assistant in Web
-									Development | Part-time
-								</div>
-								<div className="work-duration">
-									January 2021 - May 2021
-								</div>
-							</div>
-
-							<div className="work-summary">
-								<ul>
-									<li>
-										Wrote code in JavaScript, HTML, CSS &
-										MERN stack to assist students with
-										weekly assignments.
-									</li>
-									<li>
-										Collaborated with 7 teaching assistants,
-										as well as the professor, to ensure
-										students progress forward with abundant
-										resources and extended support.
-									</li>
-									<li>
-										Discussed program standards and problems
-										solved for pain points to improve the
-										course overall.
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="works-body">
-							<div className="work">
-								<img
-									src={process.env.PUBLIC_URL + "/NEU.png"}
-									alt="Northeastern University logo"
-									className="work-image"
-								/>
-								<div className="work-title">
-									Northeastern University
-								</div>
-							</div>
-							<div className="work-details-container">
-								<div className="work-subtitle">
-									Graduate Teaching Assistant in Android
-									Application Development | Part-time
-								</div>
-								<div className="work-duration">
-									May 2021 - December 2021
-								</div>
-							</div>
-
-							<div className="work-summary">
-								<ul>
-									<li>
-										Wrote Java code in Android Studio
-										involving concepts like Threads,
-										Broadcast Receivers, SQLite to assist
-										students with weekly assignments.
-									</li>
-									<li>
-										Collaborated with 2 teaching assistants,
-										as well as the professor, to ensure
-										students progress forward with abundant
-										resources and extended support.
-									</li>
-									<li>
-										Provided feedback for the curriculum to
-										improve the course and increase
-										participation.
-									</li>
-								</ul>
-							</div>
-						</div>
 						<div className="works-body">
 							<div className="work">
 								<img
@@ -273,29 +147,30 @@ const TotalExperience = () => {
 							</div>
 							<div className="work-details-container">
 								<div className="work-subtitle">
-									Software Engineer Intern | Internship
+									Software Engineer Intern
 								</div>
 								<div className="work-duration">
 									January 2019 - July 2019
 								</div>
+								{/* <div className="work-location">
+									Hyderabad, India
+								</div> */}
 							</div>
 							<div className="work-summary">
 								<ul>
 									<li>
-										Built a dashboard using Angular,
-										TypeScript, HTML, and CSS to display key
-										metrics like productivity rates and user
-										engagement.
+										Built an employee performance dashboard
+										using Angular, TypeScript, HTML, and
+										CSS; displayed productivity KPIs and
+										resolved the top three causes of
+										workflow bottlenecks, boosting team
+										efficiency by 15%.
 									</li>
 									<li>
-										Utilized HttpClient for data fetching,
-										dynamically loading and displaying
-										real-time data on the dashboard.
-									</li>
-									<li>
-										Enhanced the dashboard’s responsiveness,
-										ensuring a smooth experience across
-										different devices.
+										Integrated real-time data feeds into the
+										dashboard using REST APIs, displaying
+										user engagement metrics with an average
+										latency of under 300ms.
 									</li>
 									<li>
 										Collaborated with two other interns to
