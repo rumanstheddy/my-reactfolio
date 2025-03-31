@@ -44,7 +44,7 @@
 }
 
 .nav-item.active a {
-	color: var(--link-color) !important;
+	color: var(--link-color);
 }
 
 .nav-item a {

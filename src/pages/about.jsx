@@ -85,12 +85,16 @@ const About = () => {
 											href={INFO.about.download.link}
 											target="_blank"
 											rel="noreferrer"
+											className="about-download-link"
 										>
 											<div className="about-download-icon-container">
 												<FontAwesomeIcon
 													icon={faDownload}
 													className="about-download-icon"
 												/>
+												<span className="about-download-text">
+													Download
+												</span>
 											</div>
 										</a>
 

@@ -67,6 +67,10 @@ div.theme-icons {
 	background: var(--nav-bg-color);
 }
 
+.theme-icons:hover {
+	cursor: pointer;
+}
+
 .theme-icons svg {
 	position: absolute;
 	display: block;

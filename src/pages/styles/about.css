@@ -93,14 +93,32 @@
 	margin-bottom: 20px;
 }
 
-/* .about-download-icon-container {
-	margin-bottom: 20px;
-} */
+.about-download-link {
+	text-decoration: none;
+	color: var(--secondary-color);
+
+	.about-download-text {
+		text-decoration: underline;
+	}
+}
+
+.about-download-link:hover {
+	.about-download-icon {
+		/* transition: color 0.01s; */
+		color: var(--primary-color);
+	}
+
+	.about-download-text {
+		/* font-weight: bolder; */
+		color: var(--primary-color);
+		/* text-decoration: underline; */
+	}
+}
 
 .about-download-icon {
 	/* padding-right: 30px; */
 	font-size: 35px;
-	transition: color 0.2s ease-in-out;
+	/* transition: color 0.2s ease-in-out; */
 	color: var(--secondary-color);
 	padding-bottom: 0px;
 	padding-top: 35px;

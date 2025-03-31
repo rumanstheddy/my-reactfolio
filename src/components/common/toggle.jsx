@@ -13,7 +13,7 @@ const Toggle = ({ handleThemeChange, isLightMode }) => {
 		// 	/>
 		// 	<span className="slider round"></span>
 		// </label>
-		<div class="theme-icons">
+		<div class="theme-icons" onClick={handleThemeChange}>
 			<FontAwesomeIcon
 				icon={faMoon}
 				className={
@@ -22,7 +22,7 @@ const Toggle = ({ handleThemeChange, isLightMode }) => {
 						: "theme-icon icon-default"
 				}
 				id="moon-icon"
-				onClick={handleThemeChange}
+				// onClick={handleThemeChange}
 			/>
 			<FontAwesomeIcon
 				icon={faSun}
@@ -32,7 +32,7 @@ const Toggle = ({ handleThemeChange, isLightMode }) => {
 						: "theme-icon icon-hover"
 				}
 				id="sun-icon"
-				onClick={handleThemeChange}
+				// onClick={handleThemeChange}
 			/>
 		</div>
 	);
