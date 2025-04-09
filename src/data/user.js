@@ -55,26 +55,25 @@ const INFO = {
 			"I've been involved in diverse projects throughout my career, and I take pride in the strides we've made. If any of these projects catch your interest, explore the code and share any suggestions for improvements or enhancements. Collaboration is a fantastic opportunity for learning and development, and I welcome new ideas and feedback with open arms. Feel free to connect and share your insights!",
 		list: [
 			{
-				title: "Textful",
+				title: "SeizureCare",
 				description:
-					"Textful is a web-based application, made using React, Node.js and MongoDb that enables its users to exchange text messages directly.",
+					"Designed and developed SeizureCare, a responsive website with React, Material UI, and SCSS, enabling EEG test requests and customer service enquiries while optimizing performance to a 90+ score on Lighthouse.",
 				tech: [
 					buildImgShieldLink("JavaScript", defaultbgColor, "F7DF1E"),
 					buildImgShieldLink("React", defaultbgColor, "61DAFB"),
-					buildImgShieldLink("MongoDB", defaultbgColor, "47A248"),
-					buildImgShieldLink("CSS3", defaultbgColor, "1572B6"),
+					buildImgShieldLink("Sass", defaultbgColor, "CC6699"),
+					buildImgShieldLink("AWS Amplify", defaultbgColor, "8C6FE6"),
+					buildImgShieldLink("Lighthouse", defaultbgColor, "E34F26"),
 					buildImgShieldLink(
 						"NodeJS",
 						defaultbgColor,
 						"339933",
 						"node.js"
 					),
-					buildImgShieldLink("Express", defaultbgColor, "FFFFFF"),
 				],
 				linkText: "View Project",
-				link: "https://github.com/rumanstheddy/project-textful",
+				link: "https://seizurecarenet.com/",
 			},
-
 			{
 				title: "Playscore Pal",
 				description:
@@ -104,7 +103,26 @@ const INFO = {
 				linkText: "View Project",
 				link: "https://github.com/rumanstheddy/ss-play-score-pal",
 			},
-
+			{
+				title: "Textful",
+				description:
+					"Textful is a web-based application, made using React, Node.js and MongoDb that enables its users to exchange text messages directly.",
+				tech: [
+					buildImgShieldLink("JavaScript", defaultbgColor, "F7DF1E"),
+					buildImgShieldLink("React", defaultbgColor, "61DAFB"),
+					buildImgShieldLink("MongoDB", defaultbgColor, "47A248"),
+					buildImgShieldLink("CSS3", defaultbgColor, "1572B6"),
+					buildImgShieldLink(
+						"NodeJS",
+						defaultbgColor,
+						"339933",
+						"node.js"
+					),
+					buildImgShieldLink("Express", defaultbgColor, "FFFFFF"),
+				],
+				linkText: "View Project",
+				link: "https://github.com/rumanstheddy/project-textful",
+			},
 			{
 				title: "Meteoscope",
 				description:
