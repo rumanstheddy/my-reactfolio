@@ -78,7 +78,7 @@ const TotalExperience = () => {
 								Front-end Software Engineer
 							</div>
 							<div className="work-duration">
-								July 2021 - June 2024
+								July 2021 - March 2025
 							</div>
 							{/* <div className="work-location">Remote</div> */}
 						</div>
