@@ -106,9 +106,16 @@ const TotalExperience = () => {
 									cash-ordering module adoption.
 								</li>
 								<li>
-									Implemented React Context API for
-									centralized state management, enhancing data
-									consistency and reducing workflow errors.
+									Refactored existing state logic from local
+									component state to Redux store, improving
+									state traceability and debugging efficiency
+									across the app.
+								</li>
+								<li>
+									Leveraged Redux middleware (Thunk) for
+									managing asynchronous API calls, enhancing
+									performance and error handling in user
+									interactions.
 								</li>
 								<li>
 									Designed a REST API wrapper with Java Spring
