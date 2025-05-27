@@ -34,7 +34,7 @@ const INFO = {
 			"I'm a Software Engineer specializing in JavaScript and TypeScript. Proficient in crafting scalable, secure, and dependable web applications, I leverage various frameworks and technologies. I thrive on tackling intricate challenges and acquiring new skills. My passion lies in producing high-quality code adhering to best practices and industry standards. Eager for fresh challenges, I continually seek opportunities to enhance my skills and evolve as a developer.",
 	},
 	about: {
-		title: "Career Path",
+		title: "About",
 		description:
 			"Dive into my journey – from academic milestones to professional endeavours. Discover my story in a resumé format.",
 		download: {

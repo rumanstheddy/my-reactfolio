@@ -9,6 +9,10 @@
 
 .homepage-container {
 	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4em;
 }
 
 .homepage-first-area {
@@ -238,5 +242,11 @@
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.about-section {
+		margin-top: 40px;
 	}
 }

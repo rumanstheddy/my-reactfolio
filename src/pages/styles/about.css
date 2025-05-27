@@ -96,6 +96,7 @@
 .about-download-link {
 	text-decoration: none;
 	color: var(--secondary-color);
+	margin-right: 5px;
 
 	.about-download-text {
 		text-decoration: underline;
@@ -121,8 +122,8 @@
 	/* transition: color 0.2s ease-in-out; */
 	color: var(--secondary-color);
 	padding-bottom: 0px;
-	padding-top: 35px;
-	padding-right: 15px;
+	padding-top: 0px;
+	padding-right: 10px;
 }
 
 .about-download-icon:hover {
@@ -212,6 +213,16 @@ div#downloadCard {
 	display: none;
 }
 
+.about-subtitle-download-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 24px;
+	flex-wrap: wrap;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
 @media (320px <= width <= 768px) {
 	.about-logo {
 		display: none;
@@ -244,13 +255,15 @@ div#downloadCard {
 
 	div#downloadCard {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
 
 		div.home-card {
 			height: 70px;
 			width: 300px;
 			margin-bottom: 20px;
-			margin-top: 40px;
+			/* margin-top: 40px; */
 		}
 
 		div.home-card-container {
@@ -310,7 +323,4 @@ div#downloadCard {
 	.about-logo {
 		display: none;
 	}
-}
-
-@media (600px < width) {
 }

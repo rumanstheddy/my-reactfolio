@@ -1,18 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
 	faBriefcase,
-	faHome,
 	faProjectDiagram,
+	faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Toggle from "./toggle";
 
 import "./styles/navBar.css";
 
-const NavBar = ({ active, handleThemeChange, isLightMode }) => {
-	// const { active } = props;
-	// console.log("active: ", active);
+const NavBar = ({ active, handleThemeChange, isLightMode, handleClick }) => {
+	console.log("active: ", active);
 
 	return (
 		<React.Fragment>
@@ -22,22 +20,29 @@ const NavBar = ({ active, handleThemeChange, isLightMode }) => {
 						<ul className="nav-list">
 							<li
 								className={
-									active === "home"
+									active === "profile"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-								<Link to="/">
-									<div className="nav-item-title">Home</div>
+								<a
+									href="#profile-section"
+									onClick={() =>
+										handleClick && handleClick("profile")
+									}
+								>
+									<div className="nav-item-title">
+										Profile
+									</div>
 									<FontAwesomeIcon
-										icon={faHome}
+										icon={faUser}
 										className={
-											active === "about"
+											active === "profile"
 												? "nav-item-icon active"
 												: "nav-item-icon"
 										}
 									/>
-								</Link>
+								</a>
 							</li>
 							<li
 								className={
@@ -46,8 +51,15 @@ const NavBar = ({ active, handleThemeChange, isLightMode }) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/about">
-									<div className="nav-item-title">About</div>
+								<a
+									href="#about-section"
+									onClick={() =>
+										handleClick && handleClick("about")
+									}
+								>
+									<div className="nav-item-title">
+										About
+									</div>
 									<FontAwesomeIcon
 										icon={faBriefcase}
 										className={
@@ -56,7 +68,7 @@ const NavBar = ({ active, handleThemeChange, isLightMode }) => {
 												: "nav-item-icon"
 										}
 									/>
-								</Link>
+								</a>
 							</li>
 							<li
 								className={
@@ -65,19 +77,24 @@ const NavBar = ({ active, handleThemeChange, isLightMode }) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/projects">
+								<a
+									href="#projects-section"
+									onClick={() =>
+										handleClick && handleClick("projects")
+									}
+								>
 									<div className="nav-item-title">
 										Projects
 									</div>
 									<FontAwesomeIcon
 										icon={faProjectDiagram}
 										className={
-											active === "about"
+											active === "projects"
 												? "nav-item-icon active"
 												: "nav-item-icon"
 										}
 									/>
-								</Link>
+								</a>
 							</li>
 							{/* <li
 								className={

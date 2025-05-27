@@ -27,7 +27,7 @@ const Notfound = () => {
 	}, []);
 
 	const handleThemeChange = () => {
-		console.log(isLightMode);
+		// console.log(isLightMode);
 		setIsLightMode(!isLightMode);
 		localStorage.setItem("isLightMode", !isLightMode);
 	};
