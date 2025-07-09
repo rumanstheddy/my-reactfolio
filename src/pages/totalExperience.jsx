@@ -99,6 +99,17 @@ const TotalExperience = () => {
 									HTML, CSS, and SASS.
 								</li>
 								<li>
+									Optimized front-end performance by ~10% via
+									techniques like code splitting, image
+									optimization for enhanced UX.
+								</li>
+								<li>
+									Utilized AWS S3 for static asset hosting and
+									CloudFront for global content delivery of
+									the front-end application, ensuring high
+									performance and availability.
+								</li>
+								<li>
 									Designed and implemented scalable React
 									components utilizing the company's UI
 									framework, which accelerated feature
