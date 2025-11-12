@@ -1,5 +1,5 @@
 .aboutpage-works {
-	font-family: var(--tertiary-font);
+	font-family: var(--app-tertiary-font);
 }
 
 .about-logo-container {
@@ -81,12 +81,12 @@
 	/* padding-right: 30px; */
 	font-size: 35px;
 	transition: color 0.2s ease-in-out;
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	padding-bottom: 0px;
 }
 
 .about-social-icon:hover {
-	color: var(--primary-color);
+	color: var(--app-primary-color);
 }
 
 .about-social-icon-container {
@@ -95,7 +95,7 @@
 
 .about-download-link {
 	text-decoration: none;
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	margin-right: 5px;
 
 	.about-download-text {
@@ -106,12 +106,12 @@
 .about-download-link:hover {
 	.about-download-icon {
 		/* transition: color 0.01s; */
-		color: var(--primary-color);
+		color: var(--app-primary-color);
 	}
 
 	.about-download-text {
 		/* font-weight: bolder; */
-		color: var(--primary-color);
+		color: var(--app-primary-color);
 		/* text-decoration: underline; */
 	}
 }
@@ -120,18 +120,18 @@
 	/* padding-right: 30px; */
 	font-size: 35px;
 	/* transition: color 0.2s ease-in-out; */
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	padding-bottom: 0px;
 	padding-top: 0px;
 	padding-right: 10px;
 }
 
 .about-download-icon:hover {
-	color: var(--primary-color);
+	color: var(--app-primary-color);
 }
 
 /* .about-social-icon-container:hover {
-	color: var(--primary-color);
+	color: var(--app-primary-color);
 } */
 
 .download-card {
@@ -156,8 +156,8 @@
 }
 
 .download-card-title {
-	font-family: var(--tertiary-font);
-	color: var(--primary-color);
+	font-family: var(--app-tertiary-font);
+	color: var(--app-primary-color);
 	font-size: 18px;
 	padding-top: 15px;
 	padding-bottom: 1em;
@@ -177,7 +177,7 @@
 }
 
 .download-card:hover .download-card-link {
-	color: var(--link-color);
+	color: var(--app-link-color);
 	transition: color 0.3s ease-in-out;
 }
 
@@ -199,7 +199,7 @@
 .download-card-link {
 	display: flex;
 	align-items: center;
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	font-size: 12px;
 	padding-top: 8px;
 }

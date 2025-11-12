@@ -64,7 +64,7 @@ div.theme-icons {
 	height: 4em;
 	width: 4em;
 	border-radius: 50%;
-	background: var(--nav-bg-color);
+	background: var(--app-nav-bg-color);
 }
 
 .theme-icons:hover {
@@ -78,7 +78,7 @@ div.theme-icons {
 
 .theme-icon {
 	font-size: 2.5em;
-	/* color: var(--primary-color); */
+	/* color: var(--app-primary-color); */
 }
 
 /* .icon-default {
@@ -110,7 +110,7 @@ div.theme-icons {
 } */
 
 .theme-icons:hover {
-	background: var(--card-hover-color);
+	background: var(--app-card-hover-color);
 }
 
 @media (min-width: 1600px) {

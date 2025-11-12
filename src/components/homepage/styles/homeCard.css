@@ -18,12 +18,12 @@
 .home-card-icon {
 	font-size: 40px;
 	/* color: #27272a; */
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 }
 
 .home-card-title {
-	font-family: var(--primary-font);
-	color: var(--primary-color);
+	font-family: var(--app-primary-font);
+	color: var(--app-primary-color);
 	font-size: 20px;
 	padding-top: 15px;
 	padding-bottom: 1em;
@@ -31,7 +31,7 @@
 }
 
 .home-card-description {
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	padding-bottom: 1em;
 	display: flex;
 	font-size: 18px;
@@ -40,7 +40,7 @@
 .home-card-link {
 	display: flex;
 	align-items: center;
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	font-size: 12px;
 	padding-top: 20px;
 }
@@ -62,13 +62,13 @@
 }
 
 .home-card:hover {
-	background: var(--card-hover-color);
+	background: var(--app-card-hover-color);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
 
 .home-card:hover .home-card-link {
-	color: var(--link-color);
+	color: var(--app-link-color);
 	transition: color 0.3s ease-in-out;
 }
 

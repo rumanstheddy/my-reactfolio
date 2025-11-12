@@ -1,31 +1,31 @@
 :root {
 	/* ------- colors ------- */
-	/* --primary-color: #27272a; */
-	--primary-color: #eaeaea;
-	--secondary-color: #aeaeae;
-	/* --secondary-color: #65656d; */
-	--tertiary-color: #acacb4;
-	--quaternary-color: #e4e4e7;
-	--link-color: #9287ff;
-	--bg-color: #292929;
-	/* --nav-bg-color: #fff; */
-	--nav-bg-color: #3e3e3e;
-	/* --card-hover-color: #f7f7f7; */
-	--card-hover-color: #090909;
+	/* --app-primary-color: #27272a; */
+	--app-primary-color: #eaeaea;
+	--app-secondary-color: #aeaeae;
+	/* --app-secondary-color: #65656d; */
+	--app-tertiary-color: #acacb4;
+	--app-quaternary-color: #e4e4e7;
+	--app-link-color: #9287ff;
+	--app-bg-color: #292929;
+	/* --app-nav-bg-color: #fff; */
+	--app-nav-bg-color: #3e3e3e;
+	/* --app-card-hover-color: #f7f7f7; */
+	--app-card-hover-color: #090909;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
-	--primary-font: "Roboto Mono", sans-serif;
-	--secondary-font: "Crimson Text", sans-serif;
-	--tertiary-font: "Heebo", sans-serif;
+	--app-primary-font: "Roboto Mono", sans-serif;
+	--app-secondary-font: "Crimson Text", sans-serif;
+	--app-tertiary-font: "Heebo", sans-serif;
 	/* --------------------- */
 }
 
 [data-theme="light"] {
-	--primary-color: #27272a;
-	--secondary-color: #65656d;
-	--bg-color: white;
-	--nav-bg-color: white;
-	--card-hover-color: #e5e5e5;
-	--link-color: #f0c114;
+	--app-primary-color: #27272a;
+	--app-secondary-color: #65656d;
+	--app-bg-color: white;
+	--app-nav-bg-color: white;
+	--app-card-hover-color: #e5e5e5;
+	--app-link-color: #f0c114;
 }

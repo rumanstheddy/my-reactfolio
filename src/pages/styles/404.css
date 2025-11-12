@@ -39,15 +39,15 @@
 }
 
 .notfound-title {
-	font-family: var(--secondary-font);
-	color: var(--primary-color);
+	font-family: var(--app-secondary-font);
+	color: var(--app-primary-color);
 	font-size: 80px;
 	padding-top: 15px;
 	font-weight: 700;
 }
 
 .not-found-message {
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	font-size: 2rem;
 	margin: 2rem 0;
 	text-align: center;
@@ -57,7 +57,7 @@
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: #fff;
-	background-color: var(--link-color);
+	background-color: var(--app-link-color);
 	padding: 1rem 2rem;
 	border-radius: 50px;
 	transition: all 0.3s ease-in-out;
@@ -65,7 +65,7 @@
 
 .not-found-link:hover {
 	background-color: #fff;
-	color: var(--link-color);
+	color: var(--app-link-color);
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 

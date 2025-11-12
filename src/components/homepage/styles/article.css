@@ -19,14 +19,14 @@
 
 .homepage-article-date {
 	opacity: 1;
-	color: var(--tertiary-color);
+	color: var(--app-tertiary-color);
 	font-size: 12px;
 	margin-bottom: 1em;
 }
 
 .homepage-article-title {
 	opacity: 1;
-	color: var(--primary-color);
+	color: var(--app-primary-color);
 	font-size: 16px;
 	margin-bottom: 1em;
 	font-weight: 700;
@@ -34,7 +34,7 @@
 
 .homepage-article-description {
 	opacity: 1;
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	font-size: 12px;
 	line-height: 1.5;
 }
@@ -47,7 +47,7 @@
 }
 
 .homepage-article-link a {
-	color: var(--link-color);
+	color: var(--app-link-color);
 	text-decoration: none;
 }
 

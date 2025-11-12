@@ -5,7 +5,7 @@
 
 body {
 	margin: 0;
-	font-family: var(--tertiary-font);
+	font-family: var(--app-tertiary-font);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

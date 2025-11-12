@@ -24,14 +24,14 @@
 	font-weight: 600;
 	padding-left: 20px;
 	margin-top: -3px;
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 }
 
 .work-subtitle {
 	/* position: absolute; */
 	font-size: 14px;
 	font-weight: 500;
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	/* padding-top: 22px; */
 	padding-left: 50px;
 }
@@ -43,7 +43,7 @@
 	font-weight: 500;
 	/* padding-top: 20px; */
 	text-align: right;
-	color: var(--secondary-color);
+	color: var(--app-secondary-color);
 	padding-right: 30px;
 }
 
